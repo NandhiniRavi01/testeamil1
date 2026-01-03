@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-11-03T22:31:54.928513",
+  "value": {
+    "domain": "tesla.com",
+    "root_url": "https://tesla.com",
+    "contact_pages_tried": [
+      "https://tesla.com",
+      "https://tesla.com/",
+      "https://tesla.com/contact",
+      "https://tesla.com/contact-us",
+      "https://tesla.com/contactus",
+      "https://tesla.com/about",
+      "https://tesla.com/about-us",
+      "https://tesla.com/aboutus",
+      "https://tesla.com/team",
+      "https://tesla.com/support",
+      "https://tesla.com/help",
+      "https://tesla.com/customer-service",
+      "https://tesla.com/get-in-touch",
+      "https://tesla.com/connect"
+    ],
+    "emails": {},
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [],
+    "company_info": {},
+    "employees": [],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-04T16:59:39.656524",
+  "value": {
+    "email": "jdane2@dxc.comPeter",
+    "is_valid": false,
+    "score": 40,
+    "dns_valid": false,
+    "details": {
+      "dns_error": "Domain doesn't exist"
+    }
+  }
+}

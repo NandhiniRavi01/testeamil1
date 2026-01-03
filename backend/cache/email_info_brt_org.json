@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-09-27T08:36:34.096166",
+  "value": {
+    "email": "info@brt.org",
+    "is_valid": true,
+    "score": 60,
+    "smtp_valid": false,
+    "catch_all": false,
+    "is_role": true,
+    "details": {}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-10-13T21:00:54.208352",
+  "value": {
+    "email": "joelochli@norm.ai",
+    "is_valid": true,
+    "score": 80,
+    "smtp_valid": false,
+    "catch_all": false,
+    "details": {}
+  }
+}

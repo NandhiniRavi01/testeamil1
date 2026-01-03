@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-09-27T08:40:05.062543",
+  "value": {
+    "email": "linkedina@econclubny.org",
+    "is_valid": true,
+    "score": 70,
+    "smtp_valid": false,
+    "catch_all": false,
+    "is_role": false,
+    "details": {}
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-09-27T08:37:50.510422",
+  "value": {
+    "domain": "habektech.com",
+    "root_url": "https://habektech.com",
+    "contact_pages_tried": [
+      "https://habektech.com",
+      "https://habektech.com/",
+      "https://habektech.com/contact",
+      "https://habektech.com/contact-us",
+      "https://habektech.com/contactus",
+      "https://habektech.com/about",
+      "https://habektech.com/about-us",
+      "https://habektech.com/aboutus",
+      "https://habektech.com/team",
+      "https://habektech.com/support",
+      "https://habektech.com/help",
+      "https://habektech.com/customer-service",
+      "https://habektech.com/get-in-touch",
+      "https://habektech.com/connect"
+    ],
+    "emails": {},
+    "phones": [
+      "788\n(631) 533-9932",
+      "788 (631) 533-9932"
+    ],
+    "contact_forms": [],
+    "social_links": [],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

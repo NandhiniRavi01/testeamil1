@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-10-11T00:42:53.424370",
+  "value": {
+    "email": "stephen@purplejuice.com",
+    "is_valid": true,
+    "score": 80,
+    "smtp_valid": false,
+    "catch_all": false,
+    "details": {}
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-10-13T21:01:49.895225",
+  "value": {
+    "domain": "norm.ai",
+    "root_url": "https://norm.ai",
+    "contact_pages_tried": [
+      "https://norm.ai",
+      "https://norm.ai/",
+      "https://norm.ai/contact",
+      "https://norm.ai/contact-us",
+      "https://norm.ai/contactus",
+      "https://norm.ai/about",
+      "https://norm.ai/about-us",
+      "https://norm.ai/aboutus",
+      "https://norm.ai/team",
+      "https://norm.ai/support",
+      "https://norm.ai/help",
+      "https://norm.ai/customer-service",
+      "https://norm.ai/get-in-touch",
+      "https://norm.ai/connect"
+    ],
+    "emails": {},
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.linkedin.com/company/normative-ai/",
+      "https://x.com/normativeai/"
+    ],
+    "company_info": {
+      "description": "Regulatory AI for Legal & Compliance"
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "timestamp": "2025-09-30T12:03:56.424798",
+  "value": {
+    "domain": "canzatech.com",
+    "root_url": "https://canzatech.com",
+    "contact_pages_tried": [
+      "https://canzatech.com",
+      "https://canzatech.com/",
+      "https://canzatech.com/contact",
+      "https://canzatech.com/contact-us",
+      "https://canzatech.com/contactus",
+      "https://canzatech.com/about",
+      "https://canzatech.com/about-us",
+      "https://canzatech.com/aboutus",
+      "https://canzatech.com/team",
+      "https://canzatech.com/support",
+      "https://canzatech.com/help",
+      "https://canzatech.com/customer-service",
+      "https://canzatech.com/get-in-touch",
+      "https://canzatech.com/connect"
+    ],
+    "emails": {
+      "contact@canzatech.com": {
+        "sources": [
+          "https://canzatech.com/aboutus",
+          "https://canzatech.com",
+          "https://canzatech.com/contact-us",
+          "https://canzatech.com/get-in-touch",
+          "https://canzatech.com/connect",
+          "https://canzatech.com/",
+          "https://canzatech.com/customer-service",
+          "https://canzatech.com/about",
+          "https://canzatech.com/support",
+          "https://canzatech.com/team",
+          "https://canzatech.com/about-us",
+          "https://canzatech.com/contactus",
+          "https://canzatech.com/help",
+          "https://canzatech.com/contact"
+        ],
+        "is_role": true
+      }
+    },
+    "phones": [
+      "+918807668058",
+      "+91-8921522627"
+    ],
+    "contact_forms": [
+      {
+        "action": "https://www.canzatech.com/contact/thankyou",
+        "method": "post",
+        "inputs": [
+          "csrf_test_name",
+          "first_name",
+          "last_name",
+          "email",
+          "country_id",
+          "phone",
+          "company_name",
+          "message",
+          "type"
+        ]
+      }
+    ],
+    "social_links": [
+      "https://www.linkedin.com/company/canza-technology-consultants/",
+      "https://www.instagram.com/canza_technology_consultants/?igsh=MXE5ZWM0Ym1wa2pwcw%3D%3D",
+      "https://www.facebook.com/canzatechnologyconsultants/"
+    ],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "contact@canzatech.com",
+        "is_role": true,
+        "sources": [
+          "https://canzatech.com/aboutus",
+          "https://canzatech.com",
+          "https://canzatech.com/contact-us",
+          "https://canzatech.com/get-in-touch",
+          "https://canzatech.com/connect",
+          "https://canzatech.com/",
+          "https://canzatech.com/customer-service",
+          "https://canzatech.com/about",
+          "https://canzatech.com/support",
+          "https://canzatech.com/team",
+          "https://canzatech.com/about-us",
+          "https://canzatech.com/contactus",
+          "https://canzatech.com/help",
+          "https://canzatech.com/contact"
+        ],
+        "score": 70
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "contact@canzatech.com",
+        "is_role": true,
+        "sources": [
+          "https://canzatech.com/aboutus",
+          "https://canzatech.com",
+          "https://canzatech.com/contact-us",
+          "https://canzatech.com/get-in-touch",
+          "https://canzatech.com/connect",
+          "https://canzatech.com/",
+          "https://canzatech.com/customer-service",
+          "https://canzatech.com/about",
+          "https://canzatech.com/support",
+          "https://canzatech.com/team",
+          "https://canzatech.com/about-us",
+          "https://canzatech.com/contactus",
+          "https://canzatech.com/help",
+          "https://canzatech.com/contact"
+        ],
+        "score": 60,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      }
+    ]
+  }
+}

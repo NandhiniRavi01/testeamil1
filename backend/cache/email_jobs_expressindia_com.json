@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-09-27T08:38:31.729345",
+  "value": {
+    "email": "jobs@expressindia.com",
+    "is_valid": true,
+    "score": 60,
+    "smtp_valid": false,
+    "catch_all": false,
+    "is_role": true,
+    "details": {}
+  }
+}

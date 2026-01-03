@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-10-29T13:12:44.669977",
+  "value": {
+    "email": "hello@talisman.tech",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 5
+    }
+  }
+}

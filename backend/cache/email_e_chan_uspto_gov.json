@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-09-27T08:32:56.864746",
+  "value": {
+    "email": "e.chan@uspto.gov",
+    "is_valid": true,
+    "score": 70,
+    "smtp_valid": false,
+    "catch_all": false,
+    "is_role": false,
+    "details": {}
+  }
+}

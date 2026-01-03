@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-09-27T08:46:59.939857",
+  "value": {
+    "domain": "youtube.com",
+    "root_url": "https://youtube.com",
+    "contact_pages_tried": [
+      "https://youtube.com",
+      "https://youtube.com/",
+      "https://youtube.com/contact",
+      "https://youtube.com/contact-us",
+      "https://youtube.com/contactus",
+      "https://youtube.com/about",
+      "https://youtube.com/about-us",
+      "https://youtube.com/aboutus",
+      "https://youtube.com/team",
+      "https://youtube.com/support",
+      "https://youtube.com/help",
+      "https://youtube.com/customer-service",
+      "https://youtube.com/get-in-touch",
+      "https://youtube.com/connect"
+    ],
+    "emails": {},
+    "phones": [
+      "650072982926079",
+      "501984087511447"
+    ],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.facebook.com/youtube/?ref=br_r",
+      "https://twitter.com/YouTube",
+      "https://www.instagram.com/youtube/"
+    ],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-19T23:28:25.099555",
+  "value": {
+    "domain": "itlinkgroupe.com",
+    "root_url": "https://itlinkgroupe.com",
+    "contact_pages_tried": [
+      "https://itlinkgroupe.com",
+      "https://itlinkgroupe.com/",
+      "https://itlinkgroupe.com/contact",
+      "https://itlinkgroupe.com/contact-us",
+      "https://itlinkgroupe.com/contactus",
+      "https://itlinkgroupe.com/about",
+      "https://itlinkgroupe.com/about-us",
+      "https://itlinkgroupe.com/aboutus",
+      "https://itlinkgroupe.com/team",
+      "https://itlinkgroupe.com/support",
+      "https://itlinkgroupe.com/help",
+      "https://itlinkgroupe.com/customer-service",
+      "https://itlinkgroupe.com/get-in-touch",
+      "https://itlinkgroupe.com/connect"
+    ],
+    "emails": {},
+    "phones": [
+      "14.8.2025",
+      "13.11.2025",
+      "26.9.2025 2",
+      "2.10.2025",
+      "27.10.2025",
+      "1 2025",
+      "15.9.2025"
+    ],
+    "contact_forms": [
+      {
+        "action": "https://itlinkgroupe.com",
+        "method": "get",
+        "inputs": [
+          "prenom",
+          "nom",
+          "email",
+          "phone",
+          "company",
+          "message",
+          "Contact-2-Checkbox"
+        ]
+      }
+    ],
+    "social_links": [],
+    "company_info": {
+      "description": "IT Link est un groupe sp\u00c3\u00a9cialis\u00c3\u00a9 en ing\u00c3\u00a9nierie des technologies connect\u00c3\u00a9es. Nous accompagnons les entreprises dans leurs projets d\u00e2\u0080\u0099innovation, de la R&D \u00c3\u00a0 l\u00e2\u0080\u0099industrialisation."
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

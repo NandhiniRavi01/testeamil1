@@ -1,0 +1,575 @@
+/* EventDiscovery PREMIUM Design System */
+:root {
+    --primary: #4f46e5;
+    --secondary: #6366f1;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --dark: #0f172a;
+    --gray-50: #f8fafc;
+    --gray-100: #f1f5f9;
+    --gray-200: #e2e8f0;
+    --gray-600: #475569;
+    --gray-800: #1e293b;
+}
+
+.discovery-tab-container {
+    padding: 30px;
+    background: var(--gray-50);
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: var(--dark);
+}
+
+/* Header & Dash Summary */
+.discovery-dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.discovery-dashboard-header h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 0;
+    color: var(--dark);
+}
+
+.discovery-dashboard-header p {
+    color: var(--gray-600);
+    margin: 5px 0 0;
+}
+
+.discovery-metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.metric-card {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.2s;
+}
+
+.metric-card:hover {
+    transform: translateY(-3px);
+}
+
+.metric-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.metric-icon.blue {
+    background: #eff6ff;
+    color: #3b82f6;
+}
+
+.metric-icon.green {
+    background: #f0fdf4;
+    color: #10b981;
+}
+
+.metric-icon.purple {
+    background: #faf5ff;
+    color: #a855f7;
+}
+
+.metric-icon.orange {
+    background: #fff7ed;
+    color: #f97316;
+}
+
+.metric-icon.red {
+    background: #fef2f2;
+    color: #ef4444;
+}
+
+.metric-data .value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--dark);
+}
+
+.metric-data .label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--gray-600);
+    text-transform: uppercase;
+}
+
+/* Split View Layout */
+.discovery-split-view {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 30px;
+}
+
+/* Sidebar Styling */
+.discovery-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.search-config-card,
+.history-card {
+    background: white;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.search-config-card h3,
+.history-card h3 {
+    margin: 0 0 20px 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--gray-600);
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1.5px solid var(--gray-200);
+    border-radius: 10px;
+    font-size: 0.9rem;
+    background: var(--gray-50);
+}
+
+.platform-selector {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.platform-chip {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1.5px solid var(--gray-200);
+    background: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.platform-chip.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.btn-execute {
+    width: 100%;
+    padding: 12px;
+    background: var(--dark);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Console Logs */
+.discovery-console {
+    margin-top: 20px;
+    background: #0f172a;
+    border-radius: 10px;
+    padding: 12px;
+    color: #10b981;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+}
+
+.console-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.pulse {
+    width: 8px;
+    height: 8px;
+    background: #10b981;
+    border-radius: 50%;
+    animation: pulseGlow 1.5s infinite;
+}
+
+@keyframes pulseGlow {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Results Panel */
+.discovery-results-panel {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.panel-header {
+    padding: 24px;
+    border-bottom: 1px solid var(--gray-100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel-header h2 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.filter-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.filter-search svg {
+    position: absolute;
+    left: 14px;
+    color: var(--gray-600);
+}
+
+.filter-search input {
+    padding: 10px 14px 10px 40px;
+    border: 1.5px solid var(--gray-200);
+    border-radius: 10px;
+    font-size: 0.85rem;
+    width: 300px;
+}
+
+/* Table Styling */
+.leads-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leads-table th {
+    background: var(--gray-50);
+    padding: 14px 24px;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--gray-600);
+    text-transform: uppercase;
+}
+
+.leads-table td {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--gray-100);
+}
+
+.lead-name {
+    display: block;
+    font-weight: 800;
+    color: var(--dark);
+    font-size: 0.95rem;
+}
+
+.lead-title {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--gray-600);
+    margin-top: 2px;
+}
+
+.match-score {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.score-bar-bg {
+    width: 60px;
+    height: 6px;
+    background: var(--gray-200);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.score-bar-fill {
+    height: 100%;
+    background: var(--success);
+    border-radius: 10px;
+}
+
+.company-tag {
+    background: var(--gray-100);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.contact-info .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.65rem;
+    font-weight: 800;
+}
+
+.status-badge-verified {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.status-badge-primary {
+    background: #e0e7ff;
+    color: #3730a3;
+}
+
+.status-badge-warning {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.status-badge-default {
+    background: #f1f5f9;
+    color: #475569;
+}
+
+.action-btns {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-insight,
+.btn-social {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid var(--gray-200);
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--gray-600);
+}
+
+.btn-insight:hover {
+    background: var(--dark);
+    color: white;
+    border-color: var(--dark);
+}
+
+.btn-social.linkedin:hover {
+    background: #0077b5;
+    color: white;
+    border-color: #0077b5;
+    box-shadow: 0 0 15px rgba(0, 119, 181, 0.4);
+    transform: translateY(-2px);
+}
+
+.btn-social.website:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    box-shadow: 0 0 15px rgba(79, 70, 229, 0.4);
+    transform: translateY(-2px);
+}
+
+.btn-social {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-social.search-mode {
+    background: #f97316;
+    color: white;
+    border-color: #f97316;
+}
+
+.btn-social.search-mode:hover {
+    box-shadow: 0 0 15px rgba(249, 115, 22, 0.4);
+    transform: translateY(-2px);
+}
+
+.website-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    color: var(--gray-600);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.website-link:hover {
+    color: var(--primary);
+}
+
+.text-muted {
+    color: var(--gray-600);
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+
+/* Modal Design */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 23, 42, 0.7);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.insights-modal {
+    background: white;
+    width: 600px;
+    border-radius: 24px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.modal-header {
+    padding: 24px;
+    background: var(--dark);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.modal-header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.insight-section {
+    margin-bottom: 24px;
+}
+
+.insight-section label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 800;
+    font-size: 0.75rem;
+    color: var(--gray-600);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.hook-card {
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hook-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    padding-right: 20px;
+}
+
+.hook-card button {
+    background: white;
+    border: 1px solid var(--gray-200);
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Utilities */
+.discovery-spin {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-10-12T17:21:37.619206",
+  "value": {
+    "email": "last@global-usa.com",
+    "is_valid": true,
+    "score": 80,
+    "smtp_valid": false,
+    "catch_all": false,
+    "details": {}
+  }
+}

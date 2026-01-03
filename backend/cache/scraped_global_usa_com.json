@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-10-12T17:21:21.459811",
+  "value": {
+    "domain": "global-usa.com",
+    "root_url": "https://global-usa.com",
+    "contact_pages_tried": [
+      "https://global-usa.com",
+      "https://global-usa.com/",
+      "https://global-usa.com/contact",
+      "https://global-usa.com/contact-us",
+      "https://global-usa.com/contactus",
+      "https://global-usa.com/about",
+      "https://global-usa.com/about-us",
+      "https://global-usa.com/aboutus",
+      "https://global-usa.com/team",
+      "https://global-usa.com/support",
+      "https://global-usa.com/help",
+      "https://global-usa.com/customer-service",
+      "https://global-usa.com/get-in-touch",
+      "https://global-usa.com/connect"
+    ],
+    "emails": {},
+    "phones": [
+      "(631) 476-6500",
+      "11777"
+    ],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.facebook.com/pages/Global-Computer-Systems/154385401266001",
+      "https://twitter.com/globalcompsys",
+      "https://www.linkedin.com/company/global-computer-systems/"
+    ],
+    "company_info": {
+      "name": "GCS Website",
+      "description": "IT support and services serving Long Island, NY.  For over 25 years, Global Computer Systems has been trusted by a wide-variety of businesses to monitor, manage, maintain and support their IT infrastr"
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

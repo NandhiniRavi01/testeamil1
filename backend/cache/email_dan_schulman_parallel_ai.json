@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-03T11:03:19.759598",
+  "value": {
+    "email": "dan.schulman@parallel.ai",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 1
+    }
+  }
+}

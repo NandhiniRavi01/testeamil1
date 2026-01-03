@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-10-13T21:08:30.739826",
+  "value": {
+    "email": "joshuawang@immpressions.com",
+    "is_valid": true,
+    "score": 80,
+    "smtp_valid": false,
+    "catch_all": false,
+    "details": {}
+  }
+}

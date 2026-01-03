@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-17T14:50:44.645229",
+  "value": {
+    "email": "info@thinkshiftconsult.com",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 3
+    }
+  }
+}

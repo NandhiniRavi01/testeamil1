@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-10-14T18:37:05.733343",
+  "value": {
+    "email": "victorcruz@vcinnovations.co.uk",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 1
+    }
+  }
+}

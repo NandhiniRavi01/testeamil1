@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-09-27T08:32:56.571534",
+  "value": {
+    "email": "ellec@uspto.gov",
+    "is_valid": true,
+    "score": 70,
+    "smtp_valid": false,
+    "catch_all": false,
+    "is_role": false,
+    "details": {}
+  }
+}

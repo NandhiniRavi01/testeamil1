@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-12-17T12:11:51.329438",
+  "value": {
+    "domain": "dhl.com",
+    "root_url": "https://dhl.com",
+    "contact_pages_tried": [
+      "https://dhl.com"
+    ],
+    "emails": {},
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [],
+    "company_info": {},
+    "employees": [],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

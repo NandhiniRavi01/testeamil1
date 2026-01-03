@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-12-23T00:22:32.667673",
+  "value": {
+    "domain": "openai.com",
+    "root_url": "https://openai.com",
+    "contact_pages_tried": [
+      "https://openai.com",
+      "https://openai.com/",
+      "https://openai.com/contact",
+      "https://openai.com/contact-us",
+      "https://openai.com/contactus",
+      "https://openai.com/about",
+      "https://openai.com/about-us",
+      "https://openai.com/aboutus",
+      "https://openai.com/team",
+      "https://openai.com/support",
+      "https://openai.com/help",
+      "https://openai.com/customer-service",
+      "https://openai.com/get-in-touch",
+      "https://openai.com/connect"
+    ],
+    "emails": {},
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [],
+    "company_info": {},
+    "employees": [],
+    "ai_intelligence": {},
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

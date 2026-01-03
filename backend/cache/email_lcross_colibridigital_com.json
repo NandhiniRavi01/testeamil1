@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-13T09:53:27.417870",
+  "value": {
+    "email": "lcross@colibridigital.com",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 1
+    }
+  }
+}

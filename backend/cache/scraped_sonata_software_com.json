@@ -1,0 +1,306 @@
+{
+  "timestamp": "2025-12-17T12:14:17.432867",
+  "value": {
+    "domain": "sonata-software.com",
+    "root_url": "https://sonata-software.com",
+    "contact_pages_tried": [
+      "https://sonata-software.com",
+      "https://sonata-software.com/",
+      "https://sonata-software.com/contact",
+      "https://sonata-software.com/contact-us",
+      "https://sonata-software.com/contactus",
+      "https://sonata-software.com/about",
+      "https://sonata-software.com/about-us",
+      "https://sonata-software.com/aboutus",
+      "https://sonata-software.com/team",
+      "https://sonata-software.com/support",
+      "https://sonata-software.com/help",
+      "https://sonata-software.com/customer-service",
+      "https://sonata-software.com/get-in-touch",
+      "https://sonata-software.com/connect"
+    ],
+    "emails": {
+      "": {
+        "sources": [
+          "https://sonata-software.com/contact-us"
+        ]
+      },
+      "info@sonata-software.com": {
+        "sources": [
+          "https://sonata-software.com/contact-us"
+        ]
+      }
+    },
+    "phones": [
+      "353 15 41 3742",
+      "96-342-6698",
+      "560059",
+      "91-40-6689 3899",
+      "+1 604-628-9406",
+      "409051",
+      "974 4007 1700",
+      "560 059",
+      "47779777",
+      "8-10 60325",
+      "49-69-975-543-37",
+      "110020",
+      "1-510-791-7220",
+      "61 2 9044 9843",
+      "974 4007 1701",
+      "400 030",
+      "44630",
+      "1-732-712-2260",
+      "31202382499",
+      "98007",
+      "13571",
+      "31202382400",
+      "97305",
+      "1-425-785-5520",
+      "400 093",
+      "+46 72 466 66 98",
+      "75019",
+      "61 (3) 9867 3477",
+      "500032",
+      "61 7 3851 7300 61",
+      "510-791-7270",
+      "860-0047",
+      "91-33-22891202",
+      "974 4007 1700 974 4007",
+      "91-80-2661-1977",
+      "510-791-7220",
+      "47095",
+      "47301",
+      "40111",
+      "91-80-6778 1000",
+      "80111",
+      "7 3851 7399",
+      "+91 44 7100 1700",
+      "91 020 4002 4995",
+      "1-510-791-7220 1",
+      "2002 156",
+      "200072",
+      "44-20-8863 8833",
+      "500 016",
+      "411 001",
+      "31202382400 31202382",
+      "61 7 3851 7300",
+      "+1 (732) 712 2260",
+      "13 46200",
+      "1-510-791-7270",
+      "111 51",
+      "+91-80-6778 1999",
+      "08816",
+      "61 7 3851 7399",
+      "600032",
+      "91-022-4063 3800",
+      "39899",
+      "1-10-176",
+      "+91-22-2494 3055",
+      "700020",
+      "94560"
+    ],
+    "contact_forms": [
+      {
+        "action": "https://sonata-software.com/",
+        "method": "post",
+        "inputs": [
+          "first_name",
+          "last_name",
+          "email",
+          "phone",
+          "company_name",
+          "select_enquiry_type",
+          "message",
+          "form_build_id",
+          "form_id"
+        ]
+      },
+      {
+        "action": "https://sonata-software.com/",
+        "method": "post",
+        "inputs": [
+          "first_name",
+          "last_name",
+          "email",
+          "phone",
+          "company_name",
+          "select_enquiry_type",
+          "message",
+          "form_build_id",
+          "form_id"
+        ]
+      },
+      {
+        "action": "https://sonata-software.com/form/contact",
+        "method": "post",
+        "inputs": [
+          "enquiry_type",
+          "name",
+          "email",
+          "phone_number",
+          "company_name",
+          "message",
+          "form_build_id",
+          "form_id",
+          "captcha_sid",
+          "captcha_token",
+          "captcha_response"
+        ]
+      },
+      {
+        "action": "https://sonata-software.com/form/contact",
+        "method": "post",
+        "inputs": [
+          "first_name",
+          "last_name",
+          "email",
+          "phone",
+          "company_name",
+          "select_enquiry_type",
+          "message",
+          "form_build_id",
+          "form_id"
+        ]
+      },
+      {
+        "action": "https://sonata-software.com/contact-us",
+        "method": "post",
+        "inputs": [
+          "enquiry_type",
+          "name",
+          "email",
+          "phone_number",
+          "company_name",
+          "message",
+          "form_build_id",
+          "form_id"
+        ]
+      },
+      {
+        "action": "https://sonata-software.com/about-us",
+        "method": "post",
+        "inputs": [
+          "first_name",
+          "last_name",
+          "email",
+          "phone",
+          "company_name",
+          "select_enquiry_type",
+          "message",
+          "form_build_id",
+          "form_id"
+        ]
+      },
+      {
+        "action": "https://sonata-software.com/about-us",
+        "method": "post",
+        "inputs": [
+          "first_name",
+          "last_name",
+          "email",
+          "phone",
+          "company_name",
+          "select_enquiry_type",
+          "message",
+          "form_build_id",
+          "form_id"
+        ]
+      }
+    ],
+    "social_links": [
+      "https://www.facebook.com/sonatasoftware",
+      "https://twitter.com/Sonata_Software",
+      "https://www.linkedin.com/company/sonata-software?trk=cp_followed_name_sonata-software",
+      "https://www.instagram.com/sonata.software/",
+      "https://www.youtube.com/user/SonataSoftwareVideos"
+    ],
+    "company_info": {
+      "description": "Sonata Software is a leading Modernization engineering company, delivering innovative cloud, data & Dynamics Modernization services across multiple industries with its unique Platformation\u2122 approach."
+    },
+    "employees": [
+      {
+        "name": "About Us",
+        "role": "About Us",
+        "email": "about@sonata-software.com",
+        "phone": null,
+        "department": "Engineering",
+        "bio": "Accelerating Enterprise Digital Transformation Through Platformation\u2122, Sonata\u2019s unique approach to Digital",
+        "social_links": [],
+        "photo_url": "/sites/default/files/inline-images/aboutus/building-image-new-jersey.webp",
+        "source_page": "https://sonata-software.com/about"
+      },
+      {
+        "name": "Executive Leadership Team",
+        "role": "Executive Leadership Team",
+        "email": "executive@sonata-software.com",
+        "phone": null,
+        "department": "Engineering",
+        "bio": "Managing Director &Chief Executive Officer",
+        "social_links": [
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/sonata-software?trk=cp_followed_name_sonata-software"
+          },
+          {
+            "platform": "twitter",
+            "url": "https://twitter.com/Sonata_Software"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/sonatasoftware"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/sonata.software/"
+          }
+        ],
+        "photo_url": "/themes/custom/sonata_new/sonata-the-modernization-company-logo.png",
+        "source_page": "https://sonata-software.com/people"
+      },
+      {
+        "name": "Meet TheExecutive LeadershipTeam",
+        "role": null,
+        "email": "meet.leadershipteam@sonata-software.com",
+        "phone": null,
+        "department": "Marketing",
+        "bio": "Managing Director &Chief Executive Officer",
+        "social_links": [],
+        "photo_url": "/sites/default/files/inline-images/aboutus/elt-banner.webp",
+        "source_page": "https://sonata-software.com/people"
+      }
+    ],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "",
+        "sources": [
+          "https://sonata-software.com/contact-us"
+        ],
+        "score": 30
+      },
+      {
+        "email": "info@sonata-software.com",
+        "sources": [
+          "https://sonata-software.com/contact-us"
+        ],
+        "score": 30
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "info@sonata-software.com",
+        "sources": [
+          "https://sonata-software.com/contact-us"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 1
+        },
+        "source": "website_scraping",
+        "source_url": "https://sonata-software.com"
+      }
+    ]
+  }
+}

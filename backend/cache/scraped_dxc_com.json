@@ -1,0 +1,624 @@
+{
+  "timestamp": "2025-11-04T16:59:40.282913",
+  "value": {
+    "domain": "dxc.com",
+    "root_url": "https://dxc.com",
+    "contact_pages_tried": [
+      "https://dxc.com",
+      "https://dxc.com/",
+      "https://dxc.com/contact",
+      "https://dxc.com/contact-us",
+      "https://dxc.com/contactus",
+      "https://dxc.com/about",
+      "https://dxc.com/about-us",
+      "https://dxc.com/aboutus",
+      "https://dxc.com/team",
+      "https://dxc.com/support",
+      "https://dxc.com/help",
+      "https://dxc.com/customer-service",
+      "https://dxc.com/get-in-touch",
+      "https://dxc.com/connect"
+    ],
+    "emails": {
+      "AnalystRelations@dxc.com": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      },
+      "investor.relations@dxc.com": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      },
+      "sccompliance@dxc.com": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      },
+      "jonathon.ploch@dxc.com": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      },
+      "jdane2@dxc.comPeter": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      },
+      "%20AnalystRelations@dxc.com": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      },
+      "supplier_diversity@dxc.com": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      },
+      "es-ap-online.setup@dxc.com": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      },
+      "TPADXC@dxc.comCornelius": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      },
+      "TPADXC@dxc.com": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      },
+      "jdane2@dxc.com": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      },
+      "jonathon.ploch@dxc.comJoel": {
+        "sources": [
+          "https://dxc.com/contact"
+        ]
+      }
+    },
+    "phones": [
+      "1-651-450-4064",
+      "1-800-401-1957",
+      "1-470-690-9512",
+      "1-703-972-7000",
+      "1-800-367-5690"
+    ],
+    "contact_forms": [
+      {
+        "action": "https://app-ab29.marketo.com/landingPage/formContent?formId=1412",
+        "method": "get",
+        "inputs": [
+          "lpId",
+          "subId",
+          "lpurl",
+          "formid",
+          "ret",
+          "kw",
+          "cr",
+          "searchstr",
+          "_mkt_disp",
+          "_mkt_trk",
+          "internal_search_terms",
+          "external_search_terms",
+          "preselected_country",
+          "detected_region",
+          "detected_city",
+          "detected_language",
+          "detected_domain",
+          "detected_organization",
+          "omniture_session_id",
+          "adobeVisitorID",
+          "visited_content",
+          "visited_zones",
+          "visited_content_types",
+          "campaignname",
+          "campaign_source",
+          "campaign_medium",
+          "campaign_term",
+          "campaign_content",
+          "topics",
+          "redirect_url",
+          "dnb_duns",
+          "dnb_company",
+          "dnb_address1",
+          "dnb_address2",
+          "dnb_city",
+          "dnb_state",
+          "dnb_postal",
+          "dnb_country",
+          "dnb_naics_code",
+          "dnb_naics_description",
+          "dnb_sic_code",
+          "dnb_sic_description",
+          "dnb_revenue",
+          "dnb_employee_site_count",
+          "dnb_vanity_title",
+          "dnb_global_ultimate_duns",
+          "dnb_global_ultimate_primary_name",
+          "dnb_domestic_ultimate_duns",
+          "dnb_domestic_ultimate_primary_name",
+          "dnb_parent_duns",
+          "dnb_parent_primary_name",
+          "dnb_global_ultimate_family_tree_members_count",
+          "dnb_telephone_number",
+          "dnb_domain",
+          "dnb_trade_style_name",
+          "dnb_currency",
+          "pageservices",
+          "pageindustries",
+          "pageindustryTerms",
+          "pageofferings",
+          "pagedeliveryCapability",
+          "FirstName",
+          "LastName",
+          "Email",
+          "Country",
+          "Company",
+          "Phone",
+          "contactUsGroupRouting",
+          "Product_Interest__c",
+          "Industry",
+          "Contact_Us_Comments__c",
+          "GDPRoptIn"
+        ]
+      },
+      {
+        "action": "https://app-ab29.marketo.com/landingPage/formContent?formId=1412",
+        "method": "get",
+        "inputs": [
+          "lpId",
+          "subId",
+          "lpurl",
+          "formid",
+          "ret",
+          "kw",
+          "cr",
+          "searchstr",
+          "_mkt_disp",
+          "_mkt_trk",
+          "internal_search_terms",
+          "external_search_terms",
+          "preselected_country",
+          "detected_region",
+          "detected_city",
+          "detected_language",
+          "detected_domain",
+          "detected_organization",
+          "omniture_session_id",
+          "adobeVisitorID",
+          "visited_content",
+          "visited_zones",
+          "visited_content_types",
+          "campaignname",
+          "campaign_source",
+          "campaign_medium",
+          "campaign_term",
+          "campaign_content",
+          "topics",
+          "redirect_url",
+          "dnb_duns",
+          "dnb_company",
+          "dnb_address1",
+          "dnb_address2",
+          "dnb_city",
+          "dnb_state",
+          "dnb_postal",
+          "dnb_country",
+          "dnb_naics_code",
+          "dnb_naics_description",
+          "dnb_sic_code",
+          "dnb_sic_description",
+          "dnb_revenue",
+          "dnb_employee_site_count",
+          "dnb_vanity_title",
+          "dnb_global_ultimate_duns",
+          "dnb_global_ultimate_primary_name",
+          "dnb_domestic_ultimate_duns",
+          "dnb_domestic_ultimate_primary_name",
+          "dnb_parent_duns",
+          "dnb_parent_primary_name",
+          "dnb_global_ultimate_family_tree_members_count",
+          "dnb_telephone_number",
+          "dnb_domain",
+          "dnb_trade_style_name",
+          "dnb_currency",
+          "pageservices",
+          "pageindustries",
+          "pageindustryTerms",
+          "pageofferings",
+          "pagedeliveryCapability",
+          "FirstName",
+          "LastName",
+          "Email",
+          "Country",
+          "Company",
+          "Phone",
+          "contactUsGroupRouting",
+          "Product_Interest__c",
+          "Industry",
+          "Contact_Us_Comments__c",
+          "GDPRoptIn"
+        ]
+      },
+      {
+        "action": "https://app-ab29.marketo.com/landingPage/formContent?formId=1412",
+        "method": "get",
+        "inputs": [
+          "lpId",
+          "subId",
+          "lpurl",
+          "formid",
+          "ret",
+          "kw",
+          "cr",
+          "searchstr",
+          "_mkt_disp",
+          "_mkt_trk",
+          "internal_search_terms",
+          "external_search_terms",
+          "preselected_country",
+          "detected_region",
+          "detected_city",
+          "detected_language",
+          "detected_domain",
+          "detected_organization",
+          "omniture_session_id",
+          "adobeVisitorID",
+          "visited_content",
+          "visited_zones",
+          "visited_content_types",
+          "campaignname",
+          "campaign_source",
+          "campaign_medium",
+          "campaign_term",
+          "campaign_content",
+          "topics",
+          "redirect_url",
+          "dnb_duns",
+          "dnb_company",
+          "dnb_address1",
+          "dnb_address2",
+          "dnb_city",
+          "dnb_state",
+          "dnb_postal",
+          "dnb_country",
+          "dnb_naics_code",
+          "dnb_naics_description",
+          "dnb_sic_code",
+          "dnb_sic_description",
+          "dnb_revenue",
+          "dnb_employee_site_count",
+          "dnb_vanity_title",
+          "dnb_global_ultimate_duns",
+          "dnb_global_ultimate_primary_name",
+          "dnb_domestic_ultimate_duns",
+          "dnb_domestic_ultimate_primary_name",
+          "dnb_parent_duns",
+          "dnb_parent_primary_name",
+          "dnb_global_ultimate_family_tree_members_count",
+          "dnb_telephone_number",
+          "dnb_domain",
+          "dnb_trade_style_name",
+          "dnb_currency",
+          "FirstName",
+          "LastName",
+          "Email",
+          "Country",
+          "Company",
+          "Phone",
+          "contactUsGroupRouting",
+          "Product_Interest__c",
+          "Industry",
+          "Contact_Us_Comments__c",
+          "GDPRoptIn"
+        ]
+      },
+      {
+        "action": "https://app-ab29.marketo.com/landingPage/formContent?formId=1413",
+        "method": "get",
+        "inputs": [
+          "lpId",
+          "subId",
+          "lpurl",
+          "formid",
+          "ret",
+          "kw",
+          "cr",
+          "searchstr",
+          "_mkt_disp",
+          "_mkt_trk",
+          "internal_search_terms",
+          "external_search_terms",
+          "preselected_country",
+          "detected_region",
+          "detected_city",
+          "detected_language",
+          "detected_domain",
+          "detected_organization",
+          "omniture_session_id",
+          "adobeVisitorID",
+          "visited_content",
+          "visited_zones",
+          "visited_content_types",
+          "campaignname",
+          "campaign_source",
+          "campaign_medium",
+          "campaign_term",
+          "campaign_content",
+          "redirect_url",
+          "dnb_duns",
+          "dnb_company",
+          "dnb_address1",
+          "dnb_address2",
+          "dnb_city",
+          "dnb_state",
+          "dnb_postal",
+          "dnb_country",
+          "dnb_naics_code",
+          "dnb_naics_description",
+          "dnb_sic_code",
+          "dnb_sic_description",
+          "dnb_revenue",
+          "dnb_employee_site_count",
+          "dnb_vanity_title",
+          "dnb_global_ultimate_duns",
+          "dnb_global_ultimate_primary_name",
+          "dnb_domestic_ultimate_duns",
+          "dnb_domestic_ultimate_primary_name",
+          "dnb_parent_duns",
+          "dnb_parent_primary_name",
+          "dnb_global_ultimate_family_tree_members_count",
+          "dnb_telephone_number",
+          "dnb_domain",
+          "dnb_trade_style_name",
+          "dnb_currency",
+          "FirstName",
+          "LastName",
+          "Email",
+          "Country",
+          "Company",
+          "Phone",
+          "Title",
+          "LeadRole",
+          "contactUsRelationship",
+          "topics",
+          "Contact_Us_Comments__c",
+          "contactUsSolutionArea",
+          "contactUsIndustrySpecification",
+          "GDPRoptIn"
+        ]
+      }
+    ],
+    "social_links": [
+      "https://www.facebook.com/DXCTechnology",
+      "https://x.com/dxctechnology",
+      "https://www.instagram.com/DxcTechnology/",
+      "https://www.linkedin.com/company/dxctechnology"
+    ],
+    "company_info": {
+      "name": "DXC Technology",
+      "description": "DXC Technology helps global companies run their mission-critical systems and operations while modernizing IT, optimizing data architectures, and ensuring security and scalability across public, privat"
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "AnalystRelations@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "investor.relations@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "sccompliance@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "jonathon.ploch@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "jdane2@dxc.comPeter",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "%20AnalystRelations@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "supplier_diversity@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "es-ap-online.setup@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "TPADXC@dxc.comCornelius",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "TPADXC@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "jdane2@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "jonathon.ploch@dxc.comJoel",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 30
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "AnalystRelations@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 2
+        },
+        "source": "website_scraping",
+        "source_url": "https://dxc.com"
+      },
+      {
+        "email": "investor.relations@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 2
+        },
+        "source": "website_scraping",
+        "source_url": "https://dxc.com"
+      },
+      {
+        "email": "sccompliance@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 2
+        },
+        "source": "website_scraping",
+        "source_url": "https://dxc.com"
+      },
+      {
+        "email": "jonathon.ploch@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 2
+        },
+        "source": "website_scraping",
+        "source_url": "https://dxc.com"
+      },
+      {
+        "email": "%20AnalystRelations@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 2
+        },
+        "source": "website_scraping",
+        "source_url": "https://dxc.com"
+      },
+      {
+        "email": "supplier_diversity@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 2
+        },
+        "source": "website_scraping",
+        "source_url": "https://dxc.com"
+      },
+      {
+        "email": "es-ap-online.setup@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 2
+        },
+        "source": "website_scraping",
+        "source_url": "https://dxc.com"
+      },
+      {
+        "email": "TPADXC@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 2
+        },
+        "source": "website_scraping",
+        "source_url": "https://dxc.com"
+      },
+      {
+        "email": "jdane2@dxc.com",
+        "sources": [
+          "https://dxc.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 2
+        },
+        "source": "website_scraping",
+        "source_url": "https://dxc.com"
+      }
+    ]
+  }
+}

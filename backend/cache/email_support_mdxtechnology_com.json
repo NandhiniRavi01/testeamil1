@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-01T10:58:33.002768",
+  "value": {
+    "email": "support@mdxtechnology.com",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 1
+    }
+  }
+}

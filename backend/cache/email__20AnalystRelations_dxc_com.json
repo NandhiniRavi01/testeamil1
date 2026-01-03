@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-04T16:59:39.717575",
+  "value": {
+    "email": "%20AnalystRelations@dxc.com",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 2
+    }
+  }
+}

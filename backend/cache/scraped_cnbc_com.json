@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-12-15T16:05:46.206883",
+  "value": {
+    "domain": "cnbc.com",
+    "root_url": "https://cnbc.com",
+    "contact_pages_tried": [
+      "https://cnbc.com",
+      "https://cnbc.com/",
+      "https://cnbc.com/contact",
+      "https://cnbc.com/contactus",
+      "https://cnbc.com/about",
+      "https://cnbc.com/about-us",
+      "https://cnbc.com/aboutus",
+      "https://cnbc.com/support",
+      "https://cnbc.com/help",
+      "https://cnbc.com/customer-service",
+      "https://cnbc.com/get-in-touch",
+      "https://cnbc.com/connect"
+    ],
+    "emails": {},
+    "phones": [
+      "07632",
+      "10112",
+      "201-735-2622"
+    ],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.twitter.com/cnbci?lang=en/",
+      "https://www.instagram.com/cnbcinternational/?hl=en/",
+      "https://www.linkedin.com/showcase/cnbc-international/",
+      "https://www.facebook.com/cnbcinternational/",
+      "https://www.youtube.com/user/CNBCInternational/"
+    ],
+    "company_info": {
+      "name": "CNBC",
+      "description": "CNBC is the world leader in business news and real-time financial market coverage. Find fast, actionable information."
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

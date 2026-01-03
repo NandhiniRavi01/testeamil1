@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-12-17T14:50:44.648928",
+  "value": {
+    "domain": "thinkshiftconsult.com",
+    "root_url": "https://thinkshiftconsult.com",
+    "contact_pages_tried": [
+      "https://thinkshiftconsult.com",
+      "https://thinkshiftconsult.com/",
+      "https://thinkshiftconsult.com/contact",
+      "https://thinkshiftconsult.com/contact-us",
+      "https://thinkshiftconsult.com/contactus",
+      "https://thinkshiftconsult.com/about",
+      "https://thinkshiftconsult.com/about-us",
+      "https://thinkshiftconsult.com/aboutus",
+      "https://thinkshiftconsult.com/team",
+      "https://thinkshiftconsult.com/support",
+      "https://thinkshiftconsult.com/help",
+      "https://thinkshiftconsult.com/customer-service",
+      "https://thinkshiftconsult.com/get-in-touch",
+      "https://thinkshiftconsult.com/connect"
+    ],
+    "emails": {
+      "info@thinkshiftconsult.com": {
+        "sources": [
+          "https://thinkshiftconsult.com/contact",
+          "https://thinkshiftconsult.com",
+          "https://thinkshiftconsult.com/about",
+          "https://thinkshiftconsult.com/about-us",
+          "https://thinkshiftconsult.com/contact-us",
+          "https://thinkshiftconsult.com/"
+        ]
+      }
+    },
+    "phones": [
+      "+919985922204",
+      "500081"
+    ],
+    "contact_forms": [
+      {
+        "action": "https://thinkshiftconsult.com/contact-us/#wpcf7-f1785-p3534-o1",
+        "method": "post",
+        "inputs": [
+          "_wpcf7",
+          "_wpcf7_version",
+          "_wpcf7_locale",
+          "_wpcf7_unit_tag",
+          "_wpcf7_container_post",
+          "_wpcf7_posted_data_hash",
+          "your-name",
+          "your-company",
+          "your-email",
+          "your-message",
+          "_wpcf7_ak_hp_textarea",
+          "_wpcf7_ak_js"
+        ]
+      },
+      {
+        "action": "https://thinkshiftconsult.com/contact-us/#wpcf7-f1785-p3534-o1",
+        "method": "post",
+        "inputs": [
+          "_wpcf7",
+          "_wpcf7_version",
+          "_wpcf7_locale",
+          "_wpcf7_unit_tag",
+          "_wpcf7_container_post",
+          "_wpcf7_posted_data_hash",
+          "your-name",
+          "your-company",
+          "your-email",
+          "your-message",
+          "_wpcf7_ak_hp_textarea",
+          "_wpcf7_ak_js"
+        ]
+      }
+    ],
+    "social_links": [
+      "https://www.instagram.com/thinkshiftconsult?igsh=ZmY3NGE3YnJoN3Ey",
+      "https://www.linkedin.com/company/thinkshift-software-marketing-consulting/posts/?feedView=all"
+    ],
+    "company_info": {
+      "description": "Empowering businesses with digital transformation consulting, strategic growth solutions, and data-driven insights to scale sustainably in a competitive market."
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "info@thinkshiftconsult.com",
+        "sources": [
+          "https://thinkshiftconsult.com/contact",
+          "https://thinkshiftconsult.com",
+          "https://thinkshiftconsult.com/about",
+          "https://thinkshiftconsult.com/about-us",
+          "https://thinkshiftconsult.com/contact-us",
+          "https://thinkshiftconsult.com/"
+        ],
+        "score": 70
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "info@thinkshiftconsult.com",
+        "sources": [
+          "https://thinkshiftconsult.com/contact",
+          "https://thinkshiftconsult.com",
+          "https://thinkshiftconsult.com/about",
+          "https://thinkshiftconsult.com/about-us",
+          "https://thinkshiftconsult.com/contact-us",
+          "https://thinkshiftconsult.com/"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 3
+        },
+        "source": "website_scraping",
+        "source_url": "https://thinkshiftconsult.com"
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "timestamp": "2025-09-27T14:44:22.959635",
+  "value": {
+    "domain": "anydesk.com",
+    "root_url": "https://anydesk.com",
+    "contact_pages_tried": [
+      "https://anydesk.com",
+      "https://anydesk.com/",
+      "https://anydesk.com/contact",
+      "https://anydesk.com/contact-us",
+      "https://anydesk.com/contactus",
+      "https://anydesk.com/about",
+      "https://anydesk.com/about-us",
+      "https://anydesk.com/aboutus",
+      "https://anydesk.com/team",
+      "https://anydesk.com/support",
+      "https://anydesk.com/help",
+      "https://anydesk.com/customer-service",
+      "https://anydesk.com/get-in-touch",
+      "https://anydesk.com/connect"
+    ],
+    "emails": {},
+    "phones": [
+      "+91 93619 2632"
+    ],
+    "contact_forms": [
+      {
+        "action": "https://anydesk.com/en/contact-anydesk/sales",
+        "method": "post",
+        "inputs": [
+          "contactForm.type",
+          "contactForm.pud",
+          "contactForm.hubspotUTK",
+          "contactForm.utm_source",
+          "contactForm.firstName",
+          "contactForm.lastName",
+          "contactForm.company",
+          "contactForm.email",
+          "contactForm.phone",
+          "contactForm.country",
+          "contactForm.message",
+          "__checkbox_contactForm.subscriptionConsent",
+          "contactForm.subscriptionConsent",
+          "__checkbox_contactForm.marketingConsent",
+          "contactForm.marketingConsent"
+        ]
+      },
+      {
+        "action": "https://anydesk.com/en/contact-anydesk/billing",
+        "method": "post",
+        "inputs": [
+          "contactForm.type",
+          "contactForm.firstName",
+          "contactForm.lastName",
+          "contactForm.company",
+          "contactForm.email",
+          "contactForm.phone",
+          "contactForm.customerId",
+          "contactForm.message",
+          "__checkbox_contactForm.subscriptionConsent",
+          "contactForm.subscriptionConsent",
+          "__checkbox_contactForm.marketingConsent",
+          "contactForm.marketingConsent"
+        ]
+      },
+      {
+        "action": "https://anydesk.com/en/contact-anydesk/general",
+        "method": "post",
+        "inputs": [
+          "contactForm.type",
+          "contactForm.utm_source",
+          "contactForm.firstName",
+          "contactForm.lastName",
+          "contactForm.company",
+          "contactForm.email",
+          "contactForm.phone",
+          "contactForm.customerId",
+          "contactForm.message",
+          "__checkbox_contactForm.subscriptionConsent",
+          "contactForm.subscriptionConsent",
+          "__checkbox_contactForm.marketingConsent",
+          "contactForm.marketingConsent"
+        ]
+      },
+      {
+        "action": "https://anydesk.com/en/contact-anydesk/sales",
+        "method": "post",
+        "inputs": [
+          "contactForm.type",
+          "contactForm.pud",
+          "contactForm.hubspotUTK",
+          "contactForm.utm_source",
+          "contactForm.firstName",
+          "contactForm.lastName",
+          "contactForm.company",
+          "contactForm.email",
+          "contactForm.phone",
+          "contactForm.country",
+          "contactForm.message",
+          "__checkbox_contactForm.subscriptionConsent",
+          "contactForm.subscriptionConsent",
+          "__checkbox_contactForm.marketingConsent",
+          "contactForm.marketingConsent"
+        ]
+      },
+      {
+        "action": "https://anydesk.com/en/contact-anydesk/billing",
+        "method": "post",
+        "inputs": [
+          "contactForm.type",
+          "contactForm.firstName",
+          "contactForm.lastName",
+          "contactForm.company",
+          "contactForm.email",
+          "contactForm.phone",
+          "contactForm.customerId",
+          "contactForm.message",
+          "__checkbox_contactForm.subscriptionConsent",
+          "contactForm.subscriptionConsent",
+          "__checkbox_contactForm.marketingConsent",
+          "contactForm.marketingConsent"
+        ]
+      },
+      {
+        "action": "https://anydesk.com/en/contact-anydesk/general",
+        "method": "post",
+        "inputs": [
+          "contactForm.type",
+          "contactForm.utm_source",
+          "contactForm.firstName",
+          "contactForm.lastName",
+          "contactForm.company",
+          "contactForm.email",
+          "contactForm.phone",
+          "contactForm.customerId",
+          "contactForm.message",
+          "__checkbox_contactForm.subscriptionConsent",
+          "contactForm.subscriptionConsent",
+          "__checkbox_contactForm.marketingConsent",
+          "contactForm.marketingConsent"
+        ]
+      }
+    ],
+    "social_links": [
+      "https://www.instagram.com/anydesksoftware/",
+      "https://de.linkedin.com/company/anydesk-software-gmbh",
+      "https://www.facebook.com/AnyDesk/",
+      "https://twitter.com/anydesk"
+    ],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

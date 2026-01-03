@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-09-27T08:40:58.425527",
+  "value": {
+    "email": "lmotschwiller@thedomains.com",
+    "is_valid": true,
+    "score": 70,
+    "smtp_valid": false,
+    "catch_all": false,
+    "is_role": false,
+    "details": {}
+  }
+}

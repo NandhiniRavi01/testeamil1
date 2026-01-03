@@ -1,0 +1,87 @@
+{
+  "timestamp": "2025-10-11T00:44:34.605083",
+  "value": {
+    "domain": "purplejuice.com",
+    "root_url": "https://purplejuice.com",
+    "contact_pages_tried": [
+      "https://purplejuice.com",
+      "https://purplejuice.com/",
+      "https://purplejuice.com/contact",
+      "https://purplejuice.com/contact-us",
+      "https://purplejuice.com/contactus",
+      "https://purplejuice.com/about",
+      "https://purplejuice.com/about-us",
+      "https://purplejuice.com/aboutus",
+      "https://purplejuice.com/team",
+      "https://purplejuice.com/support",
+      "https://purplejuice.com/help",
+      "https://purplejuice.com/customer-service",
+      "https://purplejuice.com/get-in-touch",
+      "https://purplejuice.com/connect"
+    ],
+    "emails": {
+      "": {
+        "sources": [
+          "https://purplejuice.com/customer-service",
+          "https://purplejuice.com/contact",
+          "https://purplejuice.com/team",
+          "https://purplejuice.com/support",
+          "https://purplejuice.com/aboutus",
+          "https://purplejuice.com/about",
+          "https://purplejuice.com/connect",
+          "https://purplejuice.com/get-in-touch",
+          "https://purplejuice.com/help",
+          "https://purplejuice.com/contactus",
+          "https://purplejuice.com/about-us"
+        ]
+      }
+    },
+    "phones": [
+      "2025 1 2"
+    ],
+    "contact_forms": [],
+    "social_links": [
+      "https://twitter.com/intent/tweet?text={title}&url={url}",
+      "https://www.facebook.com/sharer/sharer.php?u={url}",
+      "https://www.linkedin.com/sharing/share-offsite/?url={url}"
+    ],
+    "company_info": {
+      "name": "The Purple Juice Co.",
+      "description": "Explore the Odoo Community: a hub for users, advocates, and enthusiasts. Connect, scan the ecosystem, and access key resources for everything Odoo in one place."
+    },
+    "employees": [
+      {
+        "name": "Become A Community Writer",
+        "role": "Become A Community Writer",
+        "email": "bwriter@purplejuice.com",
+        "phone": null,
+        "department": null,
+        "bio": "We are always on the hunt for'Community Contributors'to have their say on the Odoo Ecosystem. Think you have what it takes? Speak to our Editorial Team for more information.",
+        "social_links": [],
+        "photo_url": null,
+        "source_page": "https://purplejuice.com/team"
+      }
+    ],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "",
+        "sources": [
+          "https://purplejuice.com/customer-service",
+          "https://purplejuice.com/contact",
+          "https://purplejuice.com/team",
+          "https://purplejuice.com/support",
+          "https://purplejuice.com/aboutus",
+          "https://purplejuice.com/about",
+          "https://purplejuice.com/connect",
+          "https://purplejuice.com/get-in-touch",
+          "https://purplejuice.com/help",
+          "https://purplejuice.com/contactus",
+          "https://purplejuice.com/about-us"
+        ],
+        "score": 70
+      }
+    ],
+    "validated_emails": []
+  }
+}

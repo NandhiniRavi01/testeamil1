@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-11-03T09:12:55.729566",
+  "value": {
+    "domain": "ibookit.ru",
+    "root_url": "https://ibookit.ru",
+    "contact_pages_tried": [
+      "https://ibookit.ru",
+      "https://ibookit.ru/",
+      "https://ibookit.ru/contact",
+      "https://ibookit.ru/contact-us",
+      "https://ibookit.ru/contactus",
+      "https://ibookit.ru/about",
+      "https://ibookit.ru/about-us",
+      "https://ibookit.ru/aboutus",
+      "https://ibookit.ru/team",
+      "https://ibookit.ru/support",
+      "https://ibookit.ru/help",
+      "https://ibookit.ru/customer-service",
+      "https://ibookit.ru/get-in-touch",
+      "https://ibookit.ru/connect"
+    ],
+    "emails": {
+      "mail@ibookit.ru": {
+        "sources": [
+          "https://ibookit.ru",
+          "https://ibookit.ru/",
+          "https://ibookit.ru/help"
+        ]
+      }
+    },
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [],
+    "company_info": {
+      "description": "\u041f\u043e\u043c\u043e\u0436\u0435\u043c \u043d\u0430\u0439\u0442\u0438 \u0438 \u0437\u0430\u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0436\u0438\u043b\u044c\u0451. \u041e\u0442\u0435\u043b\u0438, \u0431\u0430\u0437\u044b \u043e\u0442\u0434\u044b\u0445\u0430, \u043a\u0432\u0430\u0440\u0442\u0438\u0440\u044b, \u0434\u043e\u043c\u0430. \u041e\u0431\u0437\u043e\u0440 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0445 \u0440\u0435\u0433\u0438\u043e\u043d\u043e\u0432, \u0433\u043e\u0440\u043e\u0434\u043e\u0432 \u0438 \u043f\u043e\u0441\u0435\u043b\u043a\u043e\u0432: \u0433\u0434\u0435 \u043f\u043e\u0435\u0441\u0442\u044c, \u0447\u0435\u043c \u0437\u0430\u043d\u044f\u0442\u044c\u0441\u044f, \u044d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u0438 \u0434\u043e\u0441\u0442\u043e\u043f\u0440\u0438\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438."
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "mail@ibookit.ru",
+        "sources": [
+          "https://ibookit.ru",
+          "https://ibookit.ru/",
+          "https://ibookit.ru/help"
+        ],
+        "score": 30
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "mail@ibookit.ru",
+        "sources": [
+          "https://ibookit.ru",
+          "https://ibookit.ru/",
+          "https://ibookit.ru/help"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 2
+        },
+        "source": "website_scraping",
+        "source_url": "https://ibookit.ru"
+      }
+    ]
+  }
+}

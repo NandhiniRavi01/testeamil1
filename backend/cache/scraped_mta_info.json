@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-09-27T08:47:50.538852",
+  "value": {
+    "domain": "mta.info",
+    "root_url": "https://mta.info",
+    "contact_pages_tried": [
+      "https://mta.info",
+      "https://mta.info/",
+      "https://mta.info/contact",
+      "https://mta.info/contact-us",
+      "https://mta.info/contactus",
+      "https://mta.info/about",
+      "https://mta.info/about-us",
+      "https://mta.info/aboutus",
+      "https://mta.info/team",
+      "https://mta.info/support",
+      "https://mta.info/help",
+      "https://mta.info/customer-service",
+      "https://mta.info/get-in-touch",
+      "https://mta.info/connect"
+    ],
+    "emails": {},
+    "phones": [
+      "877-789-6669"
+    ],
+    "contact_forms": [],
+    "social_links": [
+      "https://twitter.com/MetroNorth",
+      "https://www.instagram.com/mta/",
+      "https://www.instagram.com/nytransitmuseum/",
+      "https://www.linkedin.com/company/nymta/",
+      "https://www.linkedin.com/company/long-island-rail-road/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BFtA1DNLBRVaLSeWpIALWdA%3D%3D",
+      "https://www.facebook.com/mtamnr/",
+      "https://www.instagram.com/mtaartsdesign/",
+      "https://www.facebook.com/mta/",
+      "https://twitter.com/NYCTBus",
+      "https://twitter.com/MTA",
+      "https://www.instagram.com/mtametronorth/",
+      "https://twitter.com/NYCTSubway",
+      "https://twitter.com/LIRR",
+      "https://www.linkedin.com/company/metro-north/",
+      "https://www.facebook.com/mtalirr/",
+      "https://www.instagram.com/mtalirr/"
+    ],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

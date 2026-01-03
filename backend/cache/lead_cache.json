@@ -1,0 +1,297 @@
+{
+  "search_HR managers at tech startups_5": {
+    "timestamp": "2025-09-25T19:02:38.754732",
+    "results": [
+      {
+        "title": "51 Top HR Tech Companies in India · September 2025 | F6S",
+        "url": "https://www.f6s.com/companies/hr-tech/india/co",
+        "description": "Sep 1, 2025 · We're tracking Jobizo, Smartstaff Inc and more HR Tech companies in India from the F6S community. HR Tech forms part of the Human Resources industry, which is the 35th most …"
+      },
+      {
+        "title": "Best Hr Tech Companies to Work for in India 2025 | Wellfound",
+        "url": "https://wellfound.com/startups/l/india/hr-tech-1",
+        "description": "Find the best Hr Tech companies and startups to work in India on Wellfound - See company jobs, overviews, benefits, funding info, employee reviews, and more."
+      },
+      {
+        "title": "Top HR Tech Startups in India for 2025 - viestories.com",
+        "url": "https://viestories.com/insight/startup-insight/hr-tech-startups-in-india-7561651",
+        "description": "Nov 7, 2024 · HR tech startups in India are changing how companies manage human resources by using technology to improve both HR processes and the employee experience. These startups …"
+      },
+      {
+        "title": "Top 10 HR Tech Startups in India - Business Byte",
+        "url": "https://businessbyte.in/top-10-hr-tech-startups-in-india/",
+        "description": "Jun 15, 2024 · The HR Tech startups in India are driving significant innovation in human resource management, leveraging advanced technologies like AI, machine learning, and analytics to …"
+      },
+      {
+        "title": "Top 10 HR Tech Startups Revolutionizing HR Management In India",
+        "url": "https://storynetwork.in/top-10-hr-tech-startups-revolutionizing-hr-management-in-india/",
+        "description": "Jun 8, 2023 · HR tech startups are companies that leverage technology to provide innovative solutions for human resources (HR) management. These startups offer a range of software …"
+      }
+    ]
+  },
+  "contacts_f6s.com": {
+    "timestamp": "2025-09-25T19:02:48.129797",
+    "results": {
+      "domain": "f6s.com",
+      "emails": [],
+      "phones": [],
+      "social_links": [],
+      "contact_forms": [],
+      "scraped_at": "2025-09-25T19:02:39.881026",
+      "status": "success"
+    }
+  },
+  "contacts_wellfound.com": {
+    "timestamp": "2025-09-25T19:02:56.956543",
+    "results": {
+      "domain": "wellfound.com",
+      "emails": [],
+      "phones": [],
+      "social_links": [
+        "https://twitter.com/wellfoundhq",
+        "https://www.instagram.com/wellfoundhq"
+      ],
+      "contact_forms": [
+        {
+          "action": "http://wellfound.com/jobs/signup?source=webflow",
+          "method": "get",
+          "inputs": [
+            "email"
+          ]
+        },
+        {
+          "action": "http://wellfound.com/jobs/signup?source=webflow",
+          "method": "get",
+          "inputs": [
+            "email"
+          ]
+        },
+        {
+          "action": "http://wellfound.com/jobs/signup?source=webflow",
+          "method": "get",
+          "inputs": [
+            "email"
+          ]
+        }
+      ],
+      "scraped_at": "2025-09-25T19:02:49.887096",
+      "status": "success"
+    }
+  },
+  "contacts_viestories.com": {
+    "timestamp": "2025-09-25T19:03:05.626957",
+    "results": {
+      "domain": "viestories.com",
+      "emails": [],
+      "phones": [],
+      "social_links": [
+        "https://www.youtube.com/@Viestories",
+        "https://www.linkedin.com/company/viestories",
+        "https://www.facebook.com/viestories/",
+        "https://www.instagram.com/viestories_com/"
+      ],
+      "contact_forms": [
+        {
+          "action": "https://viestories.com/search",
+          "method": "get",
+          "inputs": [
+            "title"
+          ]
+        },
+        {
+          "action": "https://viestories.com/search",
+          "method": "get",
+          "inputs": [
+            "title"
+          ]
+        },
+        {
+          "action": "https://viestories.com/search",
+          "method": "get",
+          "inputs": [
+            "title"
+          ]
+        },
+        {
+          "action": "http://viestories.com",
+          "method": "post",
+          "inputs": [
+            "name",
+            "email",
+            "check_for_captcha"
+          ]
+        },
+        {
+          "action": "https://viestories.com/search",
+          "method": "get",
+          "inputs": [
+            "title"
+          ]
+        },
+        {
+          "action": "https://viestories.com/search",
+          "method": "get",
+          "inputs": [
+            "title"
+          ]
+        },
+        {
+          "action": "https://viestories.com/search",
+          "method": "get",
+          "inputs": [
+            "title"
+          ]
+        },
+        {
+          "action": "http://viestories.com",
+          "method": "post",
+          "inputs": [
+            "name",
+            "email",
+            "check_for_captcha"
+          ]
+        },
+        {
+          "action": "https://viestories.com/search",
+          "method": "get",
+          "inputs": [
+            "title"
+          ]
+        },
+        {
+          "action": "https://viestories.com/search",
+          "method": "get",
+          "inputs": [
+            "title"
+          ]
+        },
+        {
+          "action": "https://viestories.com/search",
+          "method": "get",
+          "inputs": [
+            "title"
+          ]
+        },
+        {
+          "action": "http://viestories.com/",
+          "method": "post",
+          "inputs": [
+            "name",
+            "email",
+            "check_for_captcha"
+          ]
+        }
+      ],
+      "scraped_at": "2025-09-25T19:02:57.800684",
+      "status": "success"
+    }
+  },
+  "contacts_businessbyte.in": {
+    "timestamp": "2025-09-25T19:03:15.523247",
+    "results": {
+      "domain": "businessbyte.in",
+      "emails": [
+        "businessbyteofficial@gmail.com"
+      ],
+      "phones": [],
+      "social_links": [
+        "https://www.linkedin.com/in/ankur1311/",
+        "https://www.facebook.com/BusinessByteofficial",
+        "https://www.instagram.com/businessbyte.in",
+        "https://www.linkedin.com/company/business-byte-official/"
+      ],
+      "contact_forms": [
+        {
+          "action": "https://businessbyte.in/",
+          "method": "get",
+          "inputs": [
+            "s"
+          ]
+        },
+        {
+          "action": "https://businessbyte.in/",
+          "method": "get",
+          "inputs": [
+            "s"
+          ]
+        },
+        {
+          "action": "https://businessbyte.in/",
+          "method": "get",
+          "inputs": [
+            "s"
+          ]
+        },
+        {
+          "action": "https://businessbyte.in/",
+          "method": "get",
+          "inputs": [
+            "s"
+          ]
+        }
+      ],
+      "scraped_at": "2025-09-25T19:03:07.112209",
+      "status": "success"
+    }
+  },
+  "contacts_storynetwork.in": {
+    "timestamp": "2025-09-25T19:03:30.915288",
+    "results": {
+      "domain": "storynetwork.in",
+      "emails": [
+        "storynetworkindia@gmail.com",
+        "ankur@qimedia.in"
+      ],
+      "phones": [
+        "+917842116080"
+      ],
+      "social_links": [
+        "https://www.linkedin.com/in/ankur1311/",
+        "https://www.facebook.com/StoryNetworkIndia/",
+        "https://twitter.com/Storynetworkk",
+        "https://www.linkedin.com/company/story-network/",
+        "https://www.instagram.com/storynetwork.in/"
+      ],
+      "contact_forms": [
+        {
+          "action": "https://storynetwork.in/",
+          "method": "get",
+          "inputs": [
+            "s",
+            "ct_post_type"
+          ]
+        },
+        {
+          "action": "https://storynetwork.in/",
+          "method": "get",
+          "inputs": [
+            "s",
+            "ct_post_type"
+          ]
+        },
+        {
+          "action": "https://storynetwork.in/",
+          "method": "get",
+          "inputs": [
+            "s",
+            "ct_post_type"
+          ]
+        },
+        {
+          "action": "https://storynetwork.in/",
+          "method": "get",
+          "inputs": [
+            "s",
+            "ct_post_type"
+          ]
+        }
+      ],
+      "scraped_at": "2025-09-25T19:03:16.653462",
+      "status": "success"
+    }
+  },
+  "search_ceo_5": {
+    "timestamp": "2025-09-25T19:16:17.451258",
+    "results": []
+  }
+}

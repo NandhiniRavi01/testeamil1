@@ -1,0 +1,41 @@
+/* Shared styles for reusable upload box */
+.file-upload-box {
+  border: 3px dashed #cbd5e1;
+  border-radius: 20px;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  background: #f8fafc;
+  transition: all 0.3s ease;
+}
+
+.file-upload-box:hover,
+.file-upload-box.dragging {
+  border-color: #3b82f6;
+  background: #f0f7ff;
+}
+
+.file-upload-box.has-file {
+  border-style: solid;
+  border-color: #10b981;
+  background: #f0fdf4;
+}
+
+.file-upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  color: #64748b;
+}
+
+.file-upload-label span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.file-upload-label small {
+  font-size: 0.85rem;
+  color: #475569;
+}

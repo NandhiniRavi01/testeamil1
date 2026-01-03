@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-16T16:51:11.444452",
+  "value": {
+    "email": "elizabethabraham@dhl.com",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 1
+    }
+  }
+}

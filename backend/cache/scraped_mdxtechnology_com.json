@@ -1,0 +1,165 @@
+{
+  "timestamp": "2025-12-01T10:58:33.022995",
+  "value": {
+    "domain": "mdxtechnology.com",
+    "root_url": "https://mdxtechnology.com",
+    "contact_pages_tried": [
+      "https://mdxtechnology.com",
+      "https://mdxtechnology.com/",
+      "https://mdxtechnology.com/contact",
+      "https://mdxtechnology.com/contact-us",
+      "https://mdxtechnology.com/contactus",
+      "https://mdxtechnology.com/about",
+      "https://mdxtechnology.com/about-us",
+      "https://mdxtechnology.com/aboutus",
+      "https://mdxtechnology.com/team",
+      "https://mdxtechnology.com/support",
+      "https://mdxtechnology.com/help",
+      "https://mdxtechnology.com/customer-service",
+      "https://mdxtechnology.com/get-in-touch",
+      "https://mdxtechnology.com/connect"
+    ],
+    "emails": {
+      "sales@mdxtechnology.com": {
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ]
+      },
+      " contact@mdxtechnology.com": {
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ]
+      },
+      "contact@mdxtechnology.com": {
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ]
+      },
+      "support@mdxtechnology.com": {
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ]
+      },
+      " support@mdxtechnology.com": {
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ]
+      },
+      " sales@mdxtechnology.com": {
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ]
+      }
+    },
+    "phones": [
+      "+44 7922 663451"
+    ],
+    "contact_forms": [
+      {
+        "action": "https://mdxtechnology.com/contact/",
+        "method": "post",
+        "inputs": [
+          "wpforms[fields][2]",
+          "wpforms[id]",
+          "wpforms[author]",
+          "wpforms[post_id]"
+        ]
+      }
+    ],
+    "social_links": [],
+    "company_info": {
+      "name": "MDX Technology",
+      "description": "MDX Technology (MDXT), a leader in low-code, OTC price sharing workflow solutions for financial institutions. Call on +44 7922 663451"
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "sales@mdxtechnology.com",
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": " contact@mdxtechnology.com",
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "contact@mdxtechnology.com",
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "support@mdxtechnology.com",
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": " support@mdxtechnology.com",
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": " sales@mdxtechnology.com",
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ],
+        "score": 30
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "sales@mdxtechnology.com",
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 1
+        },
+        "source": "website_scraping",
+        "source_url": "https://mdxtechnology.com"
+      },
+      {
+        "email": "contact@mdxtechnology.com",
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 1
+        },
+        "source": "website_scraping",
+        "source_url": "https://mdxtechnology.com"
+      },
+      {
+        "email": "support@mdxtechnology.com",
+        "sources": [
+          "https://mdxtechnology.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 1
+        },
+        "source": "website_scraping",
+        "source_url": "https://mdxtechnology.com"
+      }
+    ]
+  }
+}

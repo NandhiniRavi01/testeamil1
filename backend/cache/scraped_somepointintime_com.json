@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-10-30T18:41:53.838282",
+  "value": {
+    "domain": "somepointintime.com",
+    "root_url": "https://somepointintime.com",
+    "contact_pages_tried": [
+      "https://somepointintime.com",
+      "https://somepointintime.com/",
+      "https://somepointintime.com/contact",
+      "https://somepointintime.com/contact-us",
+      "https://somepointintime.com/contactus",
+      "https://somepointintime.com/about",
+      "https://somepointintime.com/about-us",
+      "https://somepointintime.com/aboutus",
+      "https://somepointintime.com/team",
+      "https://somepointintime.com/support",
+      "https://somepointintime.com/help",
+      "https://somepointintime.com/customer-service",
+      "https://somepointintime.com/get-in-touch",
+      "https://somepointintime.com/connect"
+    ],
+    "emails": {
+      "info@somepointintime.com": {
+        "sources": [
+          "https://somepointintime.com",
+          "https://somepointintime.com/"
+        ]
+      }
+    },
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [],
+    "company_info": {
+      "name": "Some Point In Time"
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "info@somepointintime.com",
+        "sources": [
+          "https://somepointintime.com",
+          "https://somepointintime.com/"
+        ],
+        "score": 20
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "info@somepointintime.com",
+        "sources": [
+          "https://somepointintime.com",
+          "https://somepointintime.com/"
+        ],
+        "score": 50,
+        "is_valid": true,
+        "dns_valid": false,
+        "details": {
+          "dns_error": "No MX records"
+        },
+        "source": "website_scraping",
+        "source_url": "https://somepointintime.com"
+      }
+    ]
+  }
+}

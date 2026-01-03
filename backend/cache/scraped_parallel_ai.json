@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-11-03T11:03:57.079933",
+  "value": {
+    "domain": "parallel.ai",
+    "root_url": "https://parallel.ai",
+    "contact_pages_tried": [
+      "https://parallel.ai",
+      "https://parallel.ai/",
+      "https://parallel.ai/contact",
+      "https://parallel.ai/contact-us",
+      "https://parallel.ai/contactus",
+      "https://parallel.ai/about",
+      "https://parallel.ai/about-us",
+      "https://parallel.ai/aboutus",
+      "https://parallel.ai/team",
+      "https://parallel.ai/support",
+      "https://parallel.ai/help",
+      "https://parallel.ai/customer-service",
+      "https://parallel.ai/get-in-touch",
+      "https://parallel.ai/connect"
+    ],
+    "emails": {
+      "hello@parallel.ai": {
+        "sources": [
+          "https://parallel.ai",
+          "https://parallel.ai/about",
+          "https://parallel.ai/"
+        ]
+      }
+    },
+    "phones": [
+      "0 50 100 150 200",
+      "1 2 3 4 5",
+      "66 68 70 72 74",
+      "56 58 60 62 64",
+      "14 2025 1",
+      "76 78 80 82 0",
+      "250 300 350"
+    ],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.linkedin.com/company/parallel-web/about/",
+      "https://x.com/p0"
+    ],
+    "company_info": {
+      "name": "Parallel Web Systems | Build the world wide web for AIs",
+      "description": "Parallel builds web data and APIs for AI agents\u2014turning web search and knowledge tasks into programmable, enterprise-ready infrastructure."
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "hello@parallel.ai",
+        "sources": [
+          "https://parallel.ai",
+          "https://parallel.ai/about",
+          "https://parallel.ai/"
+        ],
+        "score": 30
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "hello@parallel.ai",
+        "sources": [
+          "https://parallel.ai",
+          "https://parallel.ai/about",
+          "https://parallel.ai/"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 1
+        },
+        "source": "website_scraping",
+        "source_url": "https://parallel.ai"
+      }
+    ]
+  }
+}

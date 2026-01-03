@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-09-27T08:28:46.412777",
+  "value": {
+    "email": "vjanarthanan@digisol.com",
+    "is_valid": true,
+    "score": 70,
+    "smtp_valid": false,
+    "catch_all": false,
+    "is_role": false,
+    "details": {}
+  }
+}

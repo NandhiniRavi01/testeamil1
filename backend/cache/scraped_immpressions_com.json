@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-10-13T21:09:10.679263",
+  "value": {
+    "domain": "immpressions.com",
+    "root_url": "https://immpressions.com",
+    "contact_pages_tried": [
+      "https://immpressions.com",
+      "https://immpressions.com/",
+      "https://immpressions.com/contact",
+      "https://immpressions.com/contact-us",
+      "https://immpressions.com/contactus",
+      "https://immpressions.com/about",
+      "https://immpressions.com/about-us",
+      "https://immpressions.com/aboutus",
+      "https://immpressions.com/team",
+      "https://immpressions.com/support",
+      "https://immpressions.com/help",
+      "https://immpressions.com/customer-service",
+      "https://immpressions.com/get-in-touch",
+      "https://immpressions.com/connect"
+    ],
+    "emails": {
+      "sales@immpressions.com": {
+        "sources": [
+          "https://immpressions.com",
+          "https://immpressions.com/"
+        ]
+      }
+    },
+    "phones": [
+      "+91 9820806302",
+      "400066"
+    ],
+    "contact_forms": [],
+    "social_links": [],
+    "company_info": {
+      "name": "Immpressions - An import & export List of products & global sourcing between international buyers an",
+      "description": "Immpressions - An import & export List of products & global sourcing between international buyers and verified manufacturers."
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "sales@immpressions.com",
+        "sources": [
+          "https://immpressions.com",
+          "https://immpressions.com/"
+        ],
+        "score": 20
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "sales@immpressions.com",
+        "sources": [
+          "https://immpressions.com",
+          "https://immpressions.com/"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping",
+        "source_url": "https://immpressions.com"
+      }
+    ]
+  }
+}

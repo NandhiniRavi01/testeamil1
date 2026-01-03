@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-23T00:22:47.199991",
+  "value": {
+    "email": "press@openai.com",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 5
+    }
+  }
+}

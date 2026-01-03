@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-04T16:59:40.019586",
+  "value": {
+    "email": "TPADXC@dxc.comCornelius",
+    "is_valid": false,
+    "score": 40,
+    "dns_valid": false,
+    "details": {
+      "dns_error": "Domain doesn't exist"
+    }
+  }
+}

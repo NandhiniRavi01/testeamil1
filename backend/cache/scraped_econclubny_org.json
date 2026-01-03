@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-09-27T08:40:46.890406",
+  "value": {
+    "domain": "econclubny.org",
+    "root_url": "https://econclubny.org",
+    "contact_pages_tried": [
+      "https://econclubny.org",
+      "https://econclubny.org/",
+      "https://econclubny.org/contact",
+      "https://econclubny.org/contact-us",
+      "https://econclubny.org/contactus",
+      "https://econclubny.org/about",
+      "https://econclubny.org/about-us",
+      "https://econclubny.org/aboutus",
+      "https://econclubny.org/team",
+      "https://econclubny.org/support",
+      "https://econclubny.org/help",
+      "https://econclubny.org/customer-service",
+      "https://econclubny.org/get-in-touch",
+      "https://econclubny.org/connect"
+    ],
+    "emails": {},
+    "phones": [
+      "212.947.7738"
+    ],
+    "contact_forms": [
+      {
+        "action": "https://www.econclubny.org/web/pages/contact-info?p_auth=YWA9T6bO&p_p_id=announcementprimefaces_WAR_announcementprimefacesportlet_INSTANCE_WzEvHr2712YveT&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_announcementprimefaces_WAR_announcementprimefacesportlet_INSTANCE_WzEvHr2712YveT__facesViewIdRender=%2Fviews%2FAnnouncements.xhtml",
+        "method": "post",
+        "inputs": [
+          "_announcementprimefaces_WAR_announcementprimefacesportlet_INSTANCE_WzEvHr2712YveT_:announcementForm",
+          "javax.faces.encodedURL",
+          "javax.faces.ViewState"
+        ]
+      }
+    ],
+    "social_links": [
+      "https://www.facebook.com/econclubny/",
+      "https://www.linkedin.com/company/economic-club",
+      "https://twitter.com/EconClubNY?ref_src=twsrc%5Etfw",
+      "https://www.linkedin.com/company/2087635/admin/updates/",
+      "https://www.instagram.com/econclubny/",
+      "https://www.instagram.com/econclubny/?hl=en",
+      "https://twitter.com/econclubny"
+    ],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

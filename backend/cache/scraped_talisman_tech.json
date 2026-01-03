@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-10-29T13:12:44.671975",
+  "value": {
+    "domain": "talisman.tech",
+    "root_url": "https://talisman.tech",
+    "contact_pages_tried": [
+      "https://talisman.tech",
+      "https://talisman.tech/",
+      "https://talisman.tech/contact",
+      "https://talisman.tech/contact-us",
+      "https://talisman.tech/contactus",
+      "https://talisman.tech/about",
+      "https://talisman.tech/about-us",
+      "https://talisman.tech/aboutus",
+      "https://talisman.tech/team",
+      "https://talisman.tech/support",
+      "https://talisman.tech/help",
+      "https://talisman.tech/customer-service",
+      "https://talisman.tech/get-in-touch",
+      "https://talisman.tech/connect"
+    ],
+    "emails": {
+      "hello@talisman.tech": {
+        "sources": [
+          "https://talisman.tech/contact"
+        ]
+      }
+    },
+    "phones": [
+      "01582 478 888",
+      "phone: 44 (0) 1582 478 888"
+    ],
+    "contact_forms": [],
+    "social_links": [],
+    "company_info": {
+      "name": "Talisman Tech",
+      "description": "Your recruitment workflows, only faster. Instantly streamline CRM, automate Pay & Bill, and accelerate growth with AI. Our offerings include CRM & ATS, Booking Desk, Wink Wink (Marketing Platform), Ti"
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "hello@talisman.tech",
+        "sources": [
+          "https://talisman.tech/contact"
+        ],
+        "score": 30
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "hello@talisman.tech",
+        "sources": [
+          "https://talisman.tech/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 5
+        },
+        "source": "website_scraping",
+        "source_url": "https://talisman.tech"
+      }
+    ]
+  }
+}

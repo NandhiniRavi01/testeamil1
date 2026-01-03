@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-09-27T08:34:28.675451",
+  "value": {
+    "domain": "nyc.gov",
+    "root_url": "https://nyc.gov",
+    "contact_pages_tried": [
+      "https://nyc.gov",
+      "https://nyc.gov/",
+      "https://nyc.gov/contact",
+      "https://nyc.gov/contact-us",
+      "https://nyc.gov/contactus",
+      "https://nyc.gov/about",
+      "https://nyc.gov/about-us",
+      "https://nyc.gov/aboutus",
+      "https://nyc.gov/team",
+      "https://nyc.gov/support",
+      "https://nyc.gov/help",
+      "https://nyc.gov/customer-service",
+      "https://nyc.gov/get-in-touch",
+      "https://nyc.gov/connect"
+    ],
+    "emails": {},
+    "phones": [
+      "212-639-9675"
+    ],
+    "contact_forms": [],
+    "social_links": [],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

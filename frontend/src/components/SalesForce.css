@@ -1,0 +1,54 @@
+/* Salesforce-specific styles - add to your existing CSS */
+.salesforce-crm-tab {
+  padding: 0;
+  max-width: none;
+  margin: 0;
+  width: 100%;
+}
+
+.salesforce-bg {
+  background: linear-gradient(135deg, #00A1E0 0%, #1B96FF 100%) !important;
+}
+
+/* Salesforce-specific status colors */
+.status-badge.synced {
+  background: #e1f5fe;
+  color: #0277bd;
+}
+
+.status-badge.pending {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+.status-indicator.connected {
+  background: #e1f5fe;
+  color: #0277bd;
+}
+
+.status-indicator.disconnected {
+  background: #ffebee;
+  color: #c62828;
+}
+
+/* Salesforce card header */
+.card-icon-wrapper.salesforce-bg {
+  box-shadow: 0 4px 8px rgba(27, 150, 255, 0.25);
+}
+
+/* Add to your existing button styles */
+.btn-primary {
+  background: linear-gradient(135deg, #00A1E0 0%, #1B96FF 100%) !important;
+}
+
+.btn-primary:hover:not(:disabled) {
+  box-shadow: 0 6px 12px rgba(27, 150, 255, 0.35) !important;
+}
+
+/* Salesforce sync progress */
+.sync-progress-card {
+  background: linear-gradient(135deg, #e1f5fe 0%, #bbdefb 100%);
+  border: 1px solid #81d4fa;
+}
+
+/* Update responsive styles as needed */

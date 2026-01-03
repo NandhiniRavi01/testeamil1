@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-09-27T08:33:31.288223",
+  "value": {
+    "domain": "uspto.gov",
+    "root_url": "https://uspto.gov",
+    "contact_pages_tried": [
+      "https://uspto.gov",
+      "https://uspto.gov/",
+      "https://uspto.gov/contact",
+      "https://uspto.gov/contact-us",
+      "https://uspto.gov/contactus",
+      "https://uspto.gov/about",
+      "https://uspto.gov/about-us",
+      "https://uspto.gov/aboutus",
+      "https://uspto.gov/team",
+      "https://uspto.gov/support",
+      "https://uspto.gov/help",
+      "https://uspto.gov/customer-service",
+      "https://uspto.gov/get-in-touch",
+      "https://uspto.gov/connect"
+    ],
+    "emails": {},
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.instagram.com/uspto",
+      "https://www.facebook.com/uspto.gov",
+      "https://www.linkedin.com/company/uspto"
+    ],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-09-27T08:39:34.907928",
+  "value": {
+    "domain": "unitedhealthgroup.com",
+    "root_url": "https://unitedhealthgroup.com",
+    "contact_pages_tried": [
+      "https://unitedhealthgroup.com",
+      "https://unitedhealthgroup.com/",
+      "https://unitedhealthgroup.com/contact",
+      "https://unitedhealthgroup.com/contact-us",
+      "https://unitedhealthgroup.com/contactus",
+      "https://unitedhealthgroup.com/about",
+      "https://unitedhealthgroup.com/about-us",
+      "https://unitedhealthgroup.com/aboutus",
+      "https://unitedhealthgroup.com/team",
+      "https://unitedhealthgroup.com/support",
+      "https://unitedhealthgroup.com/help",
+      "https://unitedhealthgroup.com/customer-service",
+      "https://unitedhealthgroup.com/get-in-touch",
+      "https://unitedhealthgroup.com/connect"
+    ],
+    "emails": {},
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [
+      "https://twitter.com/UnitedHealthGrp",
+      "https://www.instagram.com/unitedhealthgroup",
+      "https://www.linkedin.com/company/unitedhealth-group",
+      "https://www.facebook.com/unitedhealthgroup/"
+    ],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

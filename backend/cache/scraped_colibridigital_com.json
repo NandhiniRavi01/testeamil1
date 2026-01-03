@@ -1,0 +1,153 @@
+{
+  "timestamp": "2025-11-13T09:55:35.868404",
+  "value": {
+    "domain": "colibridigital.com",
+    "root_url": "https://colibridigital.com",
+    "contact_pages_tried": [
+      "https://colibridigital.com",
+      "https://colibridigital.com/",
+      "https://colibridigital.com/contact",
+      "https://colibridigital.com/contact-us",
+      "https://colibridigital.com/contactus",
+      "https://colibridigital.com/about",
+      "https://colibridigital.com/about-us",
+      "https://colibridigital.com/aboutus",
+      "https://colibridigital.com/team",
+      "https://colibridigital.com/support",
+      "https://colibridigital.com/help",
+      "https://colibridigital.com/customer-service",
+      "https://colibridigital.com/get-in-touch",
+      "https://colibridigital.com/connect"
+    ],
+    "emails": {
+      "usa.sales@colibridigital.com": {
+        "sources": [
+          "https://colibridigital.com/contact"
+        ]
+      },
+      "hk@colibridigital.com": {
+        "sources": [
+          "https://colibridigital.com/contact"
+        ]
+      },
+      "info@colibridigital.com": {
+        "sources": [
+          "https://colibridigital.com/contact"
+        ]
+      },
+      "info@reklamis.lt": {
+        "sources": [
+          "https://colibridigital.com/contact"
+        ]
+      }
+    },
+    "phones": [
+      "10-100",
+      "+852 5461 6362",
+      "2875806",
+      "02190",
+      "210-388-6393",
+      "+370 65937501",
+      "170-210",
+      "+370 659 92104",
+      "10203",
+      "78217 210-388-6393"
+    ],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.linkedin.com/company/colibri-digital-limited",
+      "https://www.facebook.com/ColibriDigital/"
+    ],
+    "company_info": {},
+    "employees": [],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "usa.sales@colibridigital.com",
+        "sources": [
+          "https://colibridigital.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "hk@colibridigital.com",
+        "sources": [
+          "https://colibridigital.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "info@colibridigital.com",
+        "sources": [
+          "https://colibridigital.com/contact"
+        ],
+        "score": 30
+      },
+      {
+        "email": "info@reklamis.lt",
+        "sources": [
+          "https://colibridigital.com/contact"
+        ],
+        "score": 30
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "usa.sales@colibridigital.com",
+        "sources": [
+          "https://colibridigital.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 1
+        },
+        "source": "website_scraping",
+        "source_url": "https://colibridigital.com"
+      },
+      {
+        "email": "hk@colibridigital.com",
+        "sources": [
+          "https://colibridigital.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 1
+        },
+        "source": "website_scraping",
+        "source_url": "https://colibridigital.com"
+      },
+      {
+        "email": "info@colibridigital.com",
+        "sources": [
+          "https://colibridigital.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 1
+        },
+        "source": "website_scraping",
+        "source_url": "https://colibridigital.com"
+      },
+      {
+        "email": "info@reklamis.lt",
+        "sources": [
+          "https://colibridigital.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 1
+        },
+        "source": "website_scraping",
+        "source_url": "https://colibridigital.com"
+      }
+    ]
+  }
+}

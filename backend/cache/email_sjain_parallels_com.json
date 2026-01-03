@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-03T09:16:30.286420",
+  "value": {
+    "email": "sjain@parallels.com",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 1
+    }
+  }
+}

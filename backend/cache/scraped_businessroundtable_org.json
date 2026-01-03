@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-09-27T08:36:34.111790",
+  "value": {
+    "domain": "businessroundtable.org",
+    "root_url": "https://businessroundtable.org",
+    "contact_pages_tried": [
+      "https://businessroundtable.org",
+      "https://businessroundtable.org/",
+      "https://businessroundtable.org/contact",
+      "https://businessroundtable.org/contact-us",
+      "https://businessroundtable.org/contactus",
+      "https://businessroundtable.org/about",
+      "https://businessroundtable.org/about-us",
+      "https://businessroundtable.org/aboutus",
+      "https://businessroundtable.org/team",
+      "https://businessroundtable.org/support",
+      "https://businessroundtable.org/help",
+      "https://businessroundtable.org/customer-service",
+      "https://businessroundtable.org/get-in-touch",
+      "https://businessroundtable.org/connect"
+    ],
+    "emails": {
+      "jcummings@brt.org": {
+        "sources": [
+          "https://businessroundtable.org/contact"
+        ],
+        "is_role": false
+      },
+      "mmcphillips@brt.org": {
+        "sources": [
+          "https://businessroundtable.org/contact"
+        ],
+        "is_role": false
+      },
+      "info@brt.org": {
+        "sources": [
+          "https://businessroundtable.org/contact"
+        ],
+        "is_role": true
+      }
+    },
+    "phones": [
+      "202.872.1260"
+    ],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.linkedin.com/company/business-roundtable/",
+      "https://twitter.com/BizRoundtable",
+      "https://www.instagram.com/bizroundtable/",
+      "https://www.facebook.com/BusinessRoundtable"
+    ],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "jcummings@brt.org",
+        "is_role": false,
+        "sources": [
+          "https://businessroundtable.org/contact"
+        ],
+        "score": 60
+      },
+      {
+        "email": "mmcphillips@brt.org",
+        "is_role": false,
+        "sources": [
+          "https://businessroundtable.org/contact"
+        ],
+        "score": 60
+      },
+      {
+        "email": "info@brt.org",
+        "is_role": true,
+        "sources": [
+          "https://businessroundtable.org/contact"
+        ],
+        "score": 30
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "jcummings@brt.org",
+        "is_role": false,
+        "sources": [
+          "https://businessroundtable.org/contact"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      },
+      {
+        "email": "mmcphillips@brt.org",
+        "is_role": false,
+        "sources": [
+          "https://businessroundtable.org/contact"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      },
+      {
+        "email": "info@brt.org",
+        "is_role": true,
+        "sources": [
+          "https://businessroundtable.org/contact"
+        ],
+        "score": 60,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-10-14T17:34:59.116713",
+  "value": {
+    "domain": "riseglobaleducation.com",
+    "root_url": "https://riseglobaleducation.com",
+    "contact_pages_tried": [
+      "https://riseglobaleducation.com",
+      "https://riseglobaleducation.com/",
+      "https://riseglobaleducation.com/contact",
+      "https://riseglobaleducation.com/contact-us",
+      "https://riseglobaleducation.com/contactus",
+      "https://riseglobaleducation.com/about",
+      "https://riseglobaleducation.com/about-us",
+      "https://riseglobaleducation.com/aboutus",
+      "https://riseglobaleducation.com/team",
+      "https://riseglobaleducation.com/support",
+      "https://riseglobaleducation.com/help",
+      "https://riseglobaleducation.com/customer-service",
+      "https://riseglobaleducation.com/get-in-touch",
+      "https://riseglobaleducation.com/connect"
+    ],
+    "emails": {
+      "contact@riseglobaleducation.com": {
+        "sources": [
+          "https://riseglobaleducation.com/contact"
+        ]
+      }
+    },
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.youtube.com/shorts/DosGe6LvgIw",
+      "https://www.instagram.com/riseglobaleducation/",
+      "https://youtube.com/shorts/oXc2XK3cOSc?feature=share",
+      "https://youtube.com/shorts/A9elsy9ErGQ?feature=share",
+      "https://www.linkedin.com/company/rise-global-education/",
+      "https://www.youtube.com/shorts/PpV_1QSAvf0",
+      "https://youtube.com/shorts/hryZxDir7Ok",
+      "https://www.youtube.com/shorts/mG_ZYOGmtzc",
+      "https://www.youtube.com/@rise_research",
+      "https://youtube.com/shorts/WovOsQNPc_o"
+    ],
+    "company_info": {
+      "description": "RISE Research offer world-class mentorship, research publication programs, and academic guidance for high school and college students to excel in admissions, build standout profiles, and achieve long-"
+    },
+    "employees": [],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "contact@riseglobaleducation.com",
+        "sources": [
+          "https://riseglobaleducation.com/contact"
+        ],
+        "score": 30
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "contact@riseglobaleducation.com",
+        "sources": [
+          "https://riseglobaleducation.com/contact"
+        ],
+        "score": 80,
+        "is_valid": true,
+        "dns_valid": true,
+        "details": {
+          "mx_records": 5
+        },
+        "source": "website_scraping",
+        "source_url": "https://riseglobaleducation.com"
+      }
+    ]
+  }
+}

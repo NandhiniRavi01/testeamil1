@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-10-12T17:21:37.547207",
+  "value": {
+    "email": "info@globalcomputersystems.co.uk",
+    "is_valid": true,
+    "score": 80,
+    "smtp_valid": false,
+    "catch_all": false,
+    "details": {}
+  }
+}

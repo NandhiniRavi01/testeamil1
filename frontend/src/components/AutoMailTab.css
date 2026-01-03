@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.auto-mail-container {
+  padding: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section-header .title{
+  font-weight:600;
+  font-size:18px;
+  display:flex;
+  align-items:center;
+}
+
+.section-header .subtitle{
+  color:#64748b;
+  margin-top:4px;
+}
+
+.card-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+
+.card{
+  background:#0b1b2b;
+  border:1px solid #123a5a;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+.card-header{
+  padding:12px 14px;
+  border-bottom:1px solid #123a5a;
+  display:flex;
+  align-items:center;
+  font-weight:600;
+}
+
+.card-body{
+  padding:12px 14px;
+}
+
+.form-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:10px 0;
+}
+
+.form-row .row{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.dash{
+  opacity:.7;
+}
+
+.card-footer{
+  display:flex;
+  gap:10px;
+  padding:12px 14px;
+  border-top:1px solid #123a5a;
+}
+
+.btn{
+  background:#0e2a45;
+  color:#fff;
+  border:1px solid #174a75;
+  border-radius:6px;
+  padding:8px 12px;
+  cursor:pointer;
+}
+
+.btn.primary{
+  background:#2563eb;
+  border-color:#2563eb;
+}
+
+.preview-row{
+  display:flex;
+  justify-content:space-between;
+  margin:6px 0;
+}
+
+.status.ok{
+  color:#22c55e;
+}
+
+.status.off{
+  color:#ef4444;
+}

@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-10-14T18:07:20.517796",
+  "value": {
+    "email": "sales_reservation@ghihotels.com.my",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 1
+    }
+  }
+}

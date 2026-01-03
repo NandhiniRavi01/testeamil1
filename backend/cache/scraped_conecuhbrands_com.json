@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-09-27T08:35:22.428727",
+  "value": {
+    "domain": "conecuhbrands.com",
+    "root_url": "https://conecuhbrands.com",
+    "contact_pages_tried": [
+      "https://conecuhbrands.com",
+      "https://conecuhbrands.com/",
+      "https://conecuhbrands.com/contact",
+      "https://conecuhbrands.com/contact-us",
+      "https://conecuhbrands.com/contactus",
+      "https://conecuhbrands.com/about",
+      "https://conecuhbrands.com/about-us",
+      "https://conecuhbrands.com/aboutus",
+      "https://conecuhbrands.com/team",
+      "https://conecuhbrands.com/support",
+      "https://conecuhbrands.com/help",
+      "https://conecuhbrands.com/customer-service",
+      "https://conecuhbrands.com/get-in-touch",
+      "https://conecuhbrands.com/connect"
+    ],
+    "emails": {
+      "hello@conecuhbrands.com": {
+        "sources": [
+          "https://conecuhbrands.com/about",
+          "https://conecuhbrands.com",
+          "https://conecuhbrands.com/"
+        ],
+        "is_role": false
+      }
+    },
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.linkedin.com/company/conecuh-brands"
+    ],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "hello@conecuhbrands.com",
+        "is_role": false,
+        "sources": [
+          "https://conecuhbrands.com/about",
+          "https://conecuhbrands.com",
+          "https://conecuhbrands.com/"
+        ],
+        "score": 60
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "hello@conecuhbrands.com",
+        "is_role": false,
+        "sources": [
+          "https://conecuhbrands.com/about",
+          "https://conecuhbrands.com",
+          "https://conecuhbrands.com/"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      }
+    ]
+  }
+}

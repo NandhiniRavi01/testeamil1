@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-09-30T11:56:02.113207",
+  "value": {
+    "domain": "sanholo.com",
+    "root_url": "https://sanholo.com",
+    "contact_pages_tried": [
+      "https://sanholo.com",
+      "https://sanholo.com/",
+      "https://sanholo.com/contact",
+      "https://sanholo.com/contact-us",
+      "https://sanholo.com/contactus",
+      "https://sanholo.com/about",
+      "https://sanholo.com/about-us",
+      "https://sanholo.com/aboutus",
+      "https://sanholo.com/team",
+      "https://sanholo.com/support",
+      "https://sanholo.com/help",
+      "https://sanholo.com/customer-service",
+      "https://sanholo.com/get-in-touch",
+      "https://sanholo.com/connect"
+    ],
+    "emails": {},
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.facebook.com/sanholobeats",
+      "https://instagram.com/sanholobeats",
+      "https://twitter.com/sanholobeats"
+    ],
+    "notes": [],
+    "emails_list": [],
+    "validated_emails": []
+  }
+}

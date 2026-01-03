@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-09-30T12:02:08.447627",
+  "value": {
+    "email": "poudel@nytimes.com",
+    "is_valid": true,
+    "score": 70,
+    "smtp_valid": false,
+    "catch_all": false,
+    "is_role": false,
+    "details": {}
+  }
+}

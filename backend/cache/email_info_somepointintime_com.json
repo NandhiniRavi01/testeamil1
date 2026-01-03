@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-10-30T18:41:53.838282",
+  "value": {
+    "email": "info@somepointintime.com",
+    "is_valid": true,
+    "score": 50,
+    "dns_valid": false,
+    "details": {
+      "dns_error": "No MX records"
+    }
+  }
+}

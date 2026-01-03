@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-10-29T13:12:16.080586",
+  "value": {
+    "email": "sarah.london@talisman.tech",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 5
+    }
+  }
+}

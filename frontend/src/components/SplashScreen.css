@@ -1,0 +1,138 @@
+.splash-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999999;
+}
+
+.splash-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.splash-logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+/* Rotating Isometric-style Cube */
+.cube-icon {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotateFull 10s infinite linear;
+}
+
+@keyframes rotateFull {
+    0% {
+        transform: rotateX(-20deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(-20deg) rotateY(360deg);
+    }
+}
+
+.face {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 1.5px solid #94a3b8;
+    backface-visibility: visible;
+}
+
+/* Face positioning for a 60px cube */
+.front {
+    transform: translateZ(40px);
+    background: #f8fafc;
+}
+
+.back {
+    transform: rotateY(180deg) translateZ(40px);
+    background: #f1f5f9;
+}
+
+.right {
+    transform: rotateY(90deg) translateZ(40px);
+    background: #cbd5e1;
+}
+
+.left {
+    transform: rotateY(-90deg) translateZ(40px);
+    background: #cbd5e1;
+}
+
+.top {
+    transform: rotateX(90deg) translateZ(40px);
+    background: #ffffff;
+}
+
+.bottom {
+    transform: rotateX(-90deg) translateZ(40px);
+    background: #94a3b8;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.1;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo-text .brand {
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #1e293b;
+    letter-spacing: -2.5px;
+    margin-bottom: 0px;
+}
+
+.logo-text .subtext {
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: #64748b;
+    letter-spacing: -0.5px;
+    margin-top: -12px;
+}
+
+.splash-message-container {
+    opacity: 0;
+    animation: fadeInDelay 0.5s ease-out 0.4s forwards;
+}
+
+@keyframes fadeInDelay {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.loading-text {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0;
+    letter-spacing: -0.5px;
+    text-align: center;
+}

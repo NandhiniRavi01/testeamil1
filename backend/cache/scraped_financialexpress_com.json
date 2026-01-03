@@ -1,0 +1,280 @@
+{
+  "timestamp": "2025-09-27T08:38:31.729345",
+  "value": {
+    "domain": "financialexpress.com",
+    "root_url": "https://financialexpress.com",
+    "contact_pages_tried": [
+      "https://financialexpress.com",
+      "https://financialexpress.com/",
+      "https://financialexpress.com/contact",
+      "https://financialexpress.com/contact-us",
+      "https://financialexpress.com/contactus",
+      "https://financialexpress.com/about",
+      "https://financialexpress.com/about-us",
+      "https://financialexpress.com/aboutus",
+      "https://financialexpress.com/team",
+      "https://financialexpress.com/support",
+      "https://financialexpress.com/help",
+      "https://financialexpress.com/customer-service",
+      "https://financialexpress.com/get-in-touch",
+      "https://financialexpress.com/connect"
+    ],
+    "emails": {
+      "userfeedback@indianexpress.com": {
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "is_role": false
+      },
+      "group.onlinesales@indianexpress.com": {
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "is_role": false
+      },
+      "Websitejobs@expressindia.com": {
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "is_role": false
+      },
+      "jobs@expressindia.com": {
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "is_role": true
+      },
+      "feedback@indianexpress.com": {
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "is_role": false
+      },
+      "anysubscriptions@indianexpress.com": {
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "is_role": false
+      },
+      "onlinesales@indianexpress.com": {
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "is_role": false
+      },
+      "welcome.userfeedback@indianexpress.com": {
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "is_role": false
+      },
+      "subscriptions@indianexpress.com": {
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "is_role": false
+      }
+    },
+    "phones": [],
+    "contact_forms": [],
+    "social_links": [
+      "https://twitter.com/FinancialXpress",
+      "https://www.facebook.com/thefinancialexpress",
+      "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFRWLsWE52aTQAAAXwwPa2oTOIVXDBiquHXdcxm7KNXrjGEzDcOV0_UFhBmnz43zAIXLeTHid3r6yvr1boHS9cLHoXOShekZ0JBJc2V-SOMWwPZ5NBeCFAYcSKdVmiv3bgPhGc=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fthe-financial-express-india%2F"
+    ],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "userfeedback@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 60
+      },
+      {
+        "email": "group.onlinesales@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 60
+      },
+      {
+        "email": "Websitejobs@expressindia.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 60
+      },
+      {
+        "email": "feedback@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 60
+      },
+      {
+        "email": "anysubscriptions@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 60
+      },
+      {
+        "email": "onlinesales@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 60
+      },
+      {
+        "email": "welcome.userfeedback@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 60
+      },
+      {
+        "email": "subscriptions@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 60
+      },
+      {
+        "email": "jobs@expressindia.com",
+        "is_role": true,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 30
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "userfeedback@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      },
+      {
+        "email": "group.onlinesales@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      },
+      {
+        "email": "Websitejobs@expressindia.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      },
+      {
+        "email": "feedback@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      },
+      {
+        "email": "anysubscriptions@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      },
+      {
+        "email": "onlinesales@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      },
+      {
+        "email": "welcome.userfeedback@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      },
+      {
+        "email": "subscriptions@indianexpress.com",
+        "is_role": false,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      },
+      {
+        "email": "jobs@expressindia.com",
+        "is_role": true,
+        "sources": [
+          "https://financialexpress.com/contact-us"
+        ],
+        "score": 60,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      }
+    ]
+  }
+}

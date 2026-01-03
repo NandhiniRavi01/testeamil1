@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-09-30T12:01:44.299136",
+  "value": {
+    "domain": "newrelic.com",
+    "root_url": "https://newrelic.com",
+    "contact_pages_tried": [
+      "https://newrelic.com",
+      "https://newrelic.com/",
+      "https://newrelic.com/contact",
+      "https://newrelic.com/contact-us",
+      "https://newrelic.com/contactus",
+      "https://newrelic.com/about",
+      "https://newrelic.com/about-us",
+      "https://newrelic.com/aboutus",
+      "https://newrelic.com/team",
+      "https://newrelic.com/support",
+      "https://newrelic.com/help",
+      "https://newrelic.com/customer-service",
+      "https://newrelic.com/get-in-touch",
+      "https://newrelic.com/connect"
+    ],
+    "emails": {
+      "PR@newrelic.com": {
+        "sources": [
+          "https://newrelic.com/contact"
+        ],
+        "is_role": false
+      }
+    },
+    "phones": [
+      "+1 (650) 777-7600",
+      "(585) 632-6563",
+      "+49 89 26200136",
+      "+1 (888) 643-8776",
+      "(415) 660-9701",
+      "+44 20 3859 9190"
+    ],
+    "contact_forms": [],
+    "social_links": [
+      "https://twitter.com/newrelic",
+      "https://www.linkedin.com/company/new-relic-inc-",
+      "http://www.facebook.com/NewRelic",
+      "https://www.instagram.com/newrelic/"
+    ],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "PR@newrelic.com",
+        "is_role": false,
+        "sources": [
+          "https://newrelic.com/contact"
+        ],
+        "score": 60
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "PR@newrelic.com",
+        "is_role": false,
+        "sources": [
+          "https://newrelic.com/contact"
+        ],
+        "score": 70,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-03T09:12:21.855397",
+  "value": {
+    "email": "linkedingmail@ibookit.ru",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 2
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-09-27T08:41:40.794756",
+  "value": {
+    "domain": "thethinkcode.com",
+    "root_url": "https://thethinkcode.com",
+    "contact_pages_tried": [
+      "https://thethinkcode.com",
+      "https://thethinkcode.com/",
+      "https://thethinkcode.com/contact",
+      "https://thethinkcode.com/contact-us",
+      "https://thethinkcode.com/contactus",
+      "https://thethinkcode.com/about",
+      "https://thethinkcode.com/about-us",
+      "https://thethinkcode.com/aboutus",
+      "https://thethinkcode.com/team",
+      "https://thethinkcode.com/support",
+      "https://thethinkcode.com/help",
+      "https://thethinkcode.com/customer-service",
+      "https://thethinkcode.com/get-in-touch",
+      "https://thethinkcode.com/connect"
+    ],
+    "emails": {
+      "contact@thethinkcode.com": {
+        "sources": [
+          "https://thethinkcode.com/contact-us",
+          "https://thethinkcode.com/contact"
+        ],
+        "is_role": true
+      }
+    },
+    "phones": [
+      "+92 309 6626646"
+    ],
+    "contact_forms": [],
+    "social_links": [
+      "https://www.linkedin.com/company/thethinkcode",
+      "https://www.facebook.com/thethinkcode",
+      "https://www.instagram.com/thethinkcode"
+    ],
+    "notes": [],
+    "emails_list": [
+      {
+        "email": "contact@thethinkcode.com",
+        "is_role": true,
+        "sources": [
+          "https://thethinkcode.com/contact-us",
+          "https://thethinkcode.com/contact"
+        ],
+        "score": 40
+      }
+    ],
+    "validated_emails": [
+      {
+        "email": "contact@thethinkcode.com",
+        "is_role": true,
+        "sources": [
+          "https://thethinkcode.com/contact-us",
+          "https://thethinkcode.com/contact"
+        ],
+        "score": 60,
+        "is_valid": true,
+        "smtp_valid": false,
+        "catch_all": false,
+        "details": {},
+        "source": "website_scraping"
+      }
+    ]
+  }
+}

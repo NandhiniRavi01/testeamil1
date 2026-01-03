@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-29T15:35:21.937821",
+  "value": {
+    "email": "soo.kwan@medterracbd.com",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 2
+    }
+  }
+}

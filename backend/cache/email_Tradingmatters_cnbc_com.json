@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-15T16:06:11.767463",
+  "value": {
+    "email": "Tradingmatters@cnbc.com",
+    "is_valid": true,
+    "score": 80,
+    "dns_valid": true,
+    "details": {
+      "mx_records": 4
+    }
+  }
+}
