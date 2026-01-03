@@ -13,8 +13,8 @@ const getApiBaseUrl = () => {
     return process.env.REACT_APP_API_URL;
   }
   const { hostname } = window.location;
-  if (hostname === 'localhost' || hostname === '127.0.0.1') {
-    return 'http://localhost:5000';
+  if (hostname === 'localhost' || hostname === '65.1.129.37') {
+    return 'http://65.1.129.37:5000';
   }
   return '';
 };
@@ -640,5 +640,6 @@ function SalesforceCRMTab() {
     </div>
   );
 }
+
 
 export default SalesforceCRMTab;
