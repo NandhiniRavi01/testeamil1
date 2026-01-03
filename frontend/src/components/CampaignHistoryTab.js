@@ -22,7 +22,7 @@ import {
 } from 'react-icons/fi';
 import './CampaignHistoryTab.css';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://65.1.129.37:5000';
 
 const CampaignHistoryTab = () => {
     const [expandedCampaignId, setExpandedCampaignId] = useState(null);
@@ -1092,4 +1092,5 @@ const CampaignHistoryTab = () => {
 };
 
 export default CampaignHistoryTab;
+
     
