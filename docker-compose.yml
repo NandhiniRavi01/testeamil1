@@ -1,0 +1,36 @@
+services:
+  email-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: email-backend
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./backend/.env
+    environment:
+      - FLASK_ENV=production
+    networks:
+      - app-network
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: frontend-app
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - email-backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
