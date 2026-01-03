@@ -29,7 +29,7 @@ const EmailValidator = () => {
     const fileInputRef = useRef(null);
     const [showSplash, setShowSplash] = useState(false);
 
-    const API_BASE_URL = 'http://localhost:5000/api';
+    const API_BASE_URL = 'http://65.1.129.37:5000/api';
 
     const handleFileSelect = (selectedFile) => {
         setFile(selectedFile);
@@ -558,3 +558,4 @@ const ResultsTable = ({ data, getScoreClass }) => {
 };
 
 export default EmailValidator;
+
