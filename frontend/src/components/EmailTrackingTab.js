@@ -50,7 +50,7 @@ const makeAuthenticatedRequest = async (url, options = {}) => {
   }
 };
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://65.1.129.37:5000';
 
 function EmailTrackingTab() {
   const [imapConfig, setImapConfig] = useState({
@@ -2122,5 +2122,6 @@ function EmailTrackingTab() {
     </div>
   );
 }
+
 
 export default EmailTrackingTab;
