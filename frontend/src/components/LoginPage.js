@@ -23,7 +23,7 @@ function LoginPage({ onLogin, onBackToHome }) {
     // Check if user is already logged in when component mounts
     const checkExistingAuth = async () => {
       try {
-        const response = await fetch('http://localhost:5000/auth/check-auth', {
+        const response = await fetch('http://65.1.129.37:5000/auth/check-auth', {
           method: 'GET',
           credentials: 'include',
         });
@@ -57,7 +57,7 @@ function LoginPage({ onLogin, onBackToHome }) {
 
     try {
       const endpoint = isLogin ? "/auth/login" : "/auth/register";
-      const response = await fetch(`http://localhost:5000${endpoint}`, {
+      const response = await fetch(`http://65.1.129.37:5000${endpoint}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -94,7 +94,7 @@ function LoginPage({ onLogin, onBackToHome }) {
     setMessage({ type: "", text: "" });
 
     try {
-      const response = await fetch("http://localhost:5000/auth/forgot-password", {
+      const response = await fetch("http://65.1.129.37:5000/auth/forgot-password", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -376,5 +376,6 @@ function LoginPage({ onLogin, onBackToHome }) {
     </div>
   );
 }
+
 
 export default LoginPage;
