@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fi';
 import './RBACManager.css';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://65.1.129.37:5000';
 
 // Module definitions with icons and colors
 const MODULES = [
@@ -482,3 +482,4 @@ const RBACManager = ({ onClose }) => {
 };
 
 export default RBACManager;
+
