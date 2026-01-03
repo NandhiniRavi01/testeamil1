@@ -28,26 +28,26 @@ def login_required(f):
         return f(*args, **kwargs)
     return decorated_function
 
- @auth_bp.route("/register", methods=["POST"])
- def register():
-     data = request.json
-     username = data.get("username")
-     email = data.get("email")
-     password = data.get("password")
+# @auth_bp.route("/register", methods=["POST"])
+# def register():
+#     data = request.json
+#     username = data.get("username")
+#     email = data.get("email")
+#     password = data.get("password")
     
-     print(f"Register attempt - Username: {username}, Email: {email}")
+#     print(f"Register attempt - Username: {username}, Email: {email}")
     
-     if not all([username, email, password]):
-         return jsonify({"error": "Missing required fields"}), 400
+#     if not all([username, email, password]):
+#         return jsonify({"error": "Missing required fields"}), 400
     
-     if len(password) < 6:
-         return jsonify({"error": "Password must be at least 6 characters"}), 400
+#     if len(password) < 6:
+#         return jsonify({"error": "Password must be at least 6 characters"}), 400
     
-     user_id = db.create_user(username, email, password)
-     if user_id:
-         return jsonify({"message": "User created successfully", "user_id": user_id}), 201
-     else:
-         return jsonify({"error": "Username or email already exists"}), 400
+#     user_id = db.create_user(username, email, password)
+#     if user_id:
+#         return jsonify({"message": "User created successfully", "user_id": user_id}), 201
+#     else:
+#         return jsonify({"error": "Username or email already exists"}), 400
 
 
 
@@ -375,5 +375,4 @@ def toggle_user_status(user_id):
         finally:
             if connection:
                 connection.close()
-
     return jsonify({"error": "Database connection failed"}), 500
