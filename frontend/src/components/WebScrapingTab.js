@@ -187,7 +187,7 @@ const WebScrapingTab = () => {
         });
       }, 600);
 
-      // const response = await fetch('http://localhost:5000/webscraping/generate-leads', {
+      // const response = await fetch('http://65.1.129.37:5000/webscraping/generate-leads', {
       //     method: 'POST',
       //     headers: {
       //         'Content-Type': 'application/json',
@@ -195,7 +195,7 @@ const WebScrapingTab = () => {
       //     body: JSON.stringify(requestData)
       // });
 
-      const response = await fetch('http://localhost:5000/webscraping/generate-leads', {
+      const response = await fetch('http://65.1.129.37:5000/webscraping/generate-leads', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -862,5 +862,6 @@ const WebScrapingTab = () => {
     </div>
   );
 };
+
 
 export default WebScrapingTab;
