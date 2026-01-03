@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FiClock, FiRefreshCw } from "react-icons/fi";
 import "./FollowUpTab.css";
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API_BASE_URL = process.env.REACT_APP_API_URL || "http://65.1.129.37:5000";
 
 // Helper function to make authenticated requests
 const makeAuthenticatedRequest = async (url, options = {}) => {
@@ -86,3 +86,4 @@ function FollowUpTab() {
 }
 
 export default FollowUpTab;
+
