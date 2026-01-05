@@ -8,7 +8,7 @@ services:
     container_name: email-backend
     restart: unless-stopped
     ports:
-      - "5000:5000"  # optional: host port if you want direct access
+      - "5000:5000"
     networks:
       - app-network
     volumes:
@@ -31,7 +31,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddyfile_data:/etc/caddy/Caddyfile      # ✅ Permanent Caddyfile volume
       - caddy_data:/data
       - caddy_config:/config
     depends_on:
@@ -45,5 +45,6 @@ networks:
     driver: bridge
 
 volumes:
+  caddyfile_data:   # ✅ Named volume for permanent Caddyfile
   caddy_data:
   caddy_config:
