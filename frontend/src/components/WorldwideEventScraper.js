@@ -17,7 +17,7 @@ const WorldwideEventScraper = ({ setGlobalLoading }) => {
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
 
-    const SCRAPER_BASE_URL = 'http://65.1.129.37:5000/webscraping';
+    const SCRAPER_BASE_URL = 'https://emailagent.cubegtp.com//webscraping';
 
     const handleEventSearch = async () => {
         if (!eventName.trim()) return;
@@ -361,4 +361,5 @@ const WorldwideEventScraper = ({ setGlobalLoading }) => {
     );
 };
 export default WorldwideEventScraper;
+
 
