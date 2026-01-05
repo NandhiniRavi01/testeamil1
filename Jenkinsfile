@@ -128,10 +128,10 @@ pipeline {
                         sh """
                         ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} '
                             echo "🔍 Backend check"
-                            curl --fail http://65.1.129.37:5000
+                            curl --fail https://emailagent.cubegtp.com/
 
                             echo "🔍 Frontend check"
-                            curl --fail http://65.1.129.37
+                            curl --fail https://emailagent.cubegtp.com/
                             
                         '
                         """
