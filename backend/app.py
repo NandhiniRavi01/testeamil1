@@ -34,6 +34,7 @@ CORS(
             "http://65.1.129.37:8000",
             "http://65.1.129.37:5000",
             "http://65.1.129.37",
+        "https://emailagent.cubegtp.com/"
         
             "http://65.1.129.37:3001",
             
@@ -95,5 +96,6 @@ def handle_500_error(e):
 # 🚀 App runner
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000, use_reloader=False)
+
 
 
