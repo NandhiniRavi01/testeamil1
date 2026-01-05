@@ -22,7 +22,7 @@ import {
 } from 'react-icons/fi';
 import './CampaignHistoryTab.css';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://65.1.129.37:5000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://emailagent.cubegtp.com/';
 
 const CampaignHistoryTab = () => {
     const [expandedCampaignId, setExpandedCampaignId] = useState(null);
@@ -1094,3 +1094,4 @@ const CampaignHistoryTab = () => {
 export default CampaignHistoryTab;
 
     
+
