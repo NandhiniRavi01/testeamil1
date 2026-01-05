@@ -24,7 +24,7 @@ const getApiBaseUrl = () => {
   if (hostname === 'localhost' || hostname === '127.0.0.1') {
     // Check if we're in development mode
     if (process.env.NODE_ENV === 'development') {
-      return 'http://65.1.129.37:5000/api/zoho';
+      return 'https://emailagent.cubegtp.com//api/zoho';
     }
   }
 
@@ -1009,3 +1009,4 @@ function ZohoCRMTab() {
 
 
 export default ZohoCRMTab;
+
