@@ -1,47 +1,77 @@
 version: "3.9"
 
+
+
 services:
+
   email-backend:
+
     build:
+
       context: ./backend
+
       dockerfile: Dockerfile
+
     container_name: email-backend
+
     restart: unless-stopped
+
     ports:
+
+
+      - "5000:5000"  # optional: host port if you want direct access
+
+
       - "5000:5000"
+
     networks:
+
       - app-network
+
     volumes:
+
       - ./backend:/app
 
+
+
   frontend:
+
     build:
+
       context: ./frontend
+
       dockerfile: Dockerfile
+
     container_name: frontend-app
+
     restart: unless-stopped
+
     networks:
+
       - app-network
 
+
+
   caddy:
-    image: caddy:latest
+    image: caddy:2.7.4
     container_name: caddy
     restart: unless-stopped
     ports:
       - "80:80"
       - "443:443"
+    networks:
+      - email-main_app-network
     volumes:
+      - ./caddy-config/Caddyfile:/etc/caddy/Caddyfile
       - caddy_data:/data
       - caddy_config:/config
     depends_on:
-      - frontend
+      - frontend-app
       - email-backend
-    networks:
-      - app-network
 
 networks:
-  app-network:
-    driver: bridge
+  email-main_app-network:
+    external: true
 
 volumes:
   caddy_data:
