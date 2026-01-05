@@ -9,7 +9,7 @@ import {
 import "./AutoReplyTab.css";
 
 // ADD THIS CONSTANT
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://65.1.129.37:5000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://emailagent.cubegtp.com/';
 
 function AutoReplyTab() {
   const [repliedEmails, setRepliedEmails] = useState([]);
@@ -675,3 +675,4 @@ function AutoReplyTab() {
 
 
 export default AutoReplyTab;
+
