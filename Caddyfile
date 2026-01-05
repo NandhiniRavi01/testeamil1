@@ -1,0 +1,43 @@
+# Force HTTP → HTTPS
+http://emailagent.cubegtp.com {
+    redir https://{host}{uri} permanent
+}
+
+# Main HTTPS site
+emailagent.cubegtp.com {
+    tls sobiyasivakumar79@gmail.com
+
+    encode gzip
+
+    header {
+        X-Frame-Options SAMEORIGIN
+        X-Content-Type-Options nosniff
+        X-XSS-Protection "1; mode=block"
+        Referrer-Policy strict-origin-when-cross-origin
+        -Server
+    }
+
+    # === 1. API routes → Flask backend ===
+    handle /auth/* {
+        reverse_proxy email-backend:5000
+    }
+
+    handle /api/* {
+        reverse_proxy email-backend:5000
+    }
+
+    handle /webscraping/* {
+        reverse_proxy email-backend:5000
+    }
+
+    # === 2. Everything else → React frontend (SPA fallback) ===
+    handle {
+        reverse_proxy frontend-app:80
+    }
+
+    # Cache static assets aggressively
+    @static {
+        path *.js *.css *.png *.jpg *.jpeg *.gif *.ico *.svg *.woff* *.ttf *.eot *.json *.webmanifest
+    }
+    header @static Cache-Control "public, max-age=31536000, immutable"
+}
