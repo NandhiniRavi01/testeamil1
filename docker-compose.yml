@@ -24,17 +24,25 @@ services:
       - app-network
 
   caddy:
-  image: caddy:latest
-  container_name: caddy
-  restart: unless-stopped
-  ports:
-    - "80:80"
-    - "443:443"
-  volumes:
-    - caddy_data:/data
-    - caddy_config:/config
-  depends_on:
-    - frontend
-    - email-backend
-  networks:
-    - app-network
+    image: caddy:latest
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - frontend
+      - email-backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  caddy_data:
+  caddy_config:
