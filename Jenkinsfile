@@ -110,9 +110,7 @@ pipeline {
                         echo "🚀 Starting containers"
                         docker compose up -d
 
-                        echo "📄 Verifying RDS CA bundle exists inside container"
-                        docker exec email-backend ls -l /etc/ssl/certs/rds-ca.pem || true
-                    '
+                        
                     """
                 }
             }
