@@ -32,13 +32,13 @@ pipeline {
             steps {
                 sshagent(['aws-email-vm-ssh']) {
                     sh """
-                    ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} '
+                    ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} << 'EOF'
                         echo "✅ SSH connected"
                         hostname
                         whoami
                         docker --version
                         docker compose version
-                    '
+EOF
                     """
                 }
             }
@@ -51,11 +51,11 @@ pipeline {
             steps {
                 sshagent(['aws-email-vm-ssh']) {
                     sh """
-                    ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} '
+                    ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} << 'EOF'
                         echo "🧹 Removing old application code"
                         rm -rf ${VM_APP_DIR}
                         mkdir -p ${VM_APP_DIR}
-                    '
+EOF
                     """
                 }
             }
@@ -79,46 +79,46 @@ pipeline {
         }
 
         // -----------------------------
-        // 5. Stop & Remove Old Containers + Images
+        // 5. Stop Old Containers (keep volumes)
         // -----------------------------
-        stage('Cleanup Containers & Images') {
+        stage('Cleanup Containers') {
             steps {
                 sshagent(['aws-email-vm-ssh']) {
                     sh """
-                    ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} '
+                    ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} << 'EOF'
                         cd ${VM_APP_DIR}
-                        echo "🧹 Stopping containers and removing old images"
-                        docker compose down --rmi all --volumes --remove-orphans || true
-                    '
+                        echo "🧹 Stopping containers (preserving volumes & TLS certs)"
+                        docker compose down --remove-orphans || true
+EOF
                     """
                 }
             }
         }
 
         // -----------------------------
-        // 6. Build & Deploy with RDS CA
+        // 6. Build & Deploy
         // -----------------------------
-       stage('Build & Deploy') {
-    steps {
-        sshagent(['aws-email-vm-ssh']) {
-            sh """
-            ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} << 'EOF'
-                set -e
-                cd ${VM_APP_DIR}
+        stage('Build & Deploy') {
+            steps {
+                sshagent(['aws-email-vm-ssh']) {
+                    sh """
+                    ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} << 'EOF'
+                        set -e
+                        cd ${VM_APP_DIR}
 
-                echo "🐳 Building fresh backend image"
-                docker compose build --no-cache email-backend
+                        echo "🐳 Building backend image"
+                        docker compose build email-backend
 
-                echo "🚀 Starting containers"
-                docker compose up -d
+                        echo "🚀 Starting containers"
+                        docker compose up -d
 
-                
+                        echo "🔄 Reloading Caddy"
+                        docker exec caddy caddy reload --config /etc/caddy/Caddyfile
 EOF
-            """
+                    """
+                }
+            }
         }
-    }
-}
-
 
         // -----------------------------
         // 7. Verify Services
@@ -128,14 +128,13 @@ EOF
                 sshagent(['aws-email-vm-ssh']) {
                     retry(5) {
                         sh """
-                        ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} '
-                            echo "🔍 Backend check"
-                            curl --fail https://emailagent.cubegtp.com/
-
+                        ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} << 'EOF'
                             echo "🔍 Frontend check"
                             curl --fail https://emailagent.cubegtp.com/
-                            
-                        '
+
+                            echo "🔍 Backend check"
+                            curl --fail https://emailagent.cubegtp.com/auth/check-auth
+EOF
                         """
                         sleep 5
                     }
@@ -146,9 +145,8 @@ EOF
 
     post {
         success {
-            echo "✅ Deployment successful (clean code + clean images + CA bundle)"
+            echo "✅ Deployment successful"
         }
-
         failure {
             echo "❌ Deployment failed — check Jenkins logs"
         }
