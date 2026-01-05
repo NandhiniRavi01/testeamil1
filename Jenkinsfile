@@ -99,23 +99,23 @@ pipeline {
         // 6. Build & Deploy with RDS CA
         // -----------------------------
         stage('Build & Deploy') {
-            steps {
-                sshagent(['aws-email-vm-ssh']) {
-                    sh """
-                    ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} '
-                        cd ${VM_APP_DIR}
-                        echo "🐳 Building fresh backend image with CA bundle"
-                        docker compose build --no-cache email-backend
+    steps {
+        sshagent(['aws-email-vm-ssh']) {
+            sh """
+            ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} '
+                cd ${VM_APP_DIR}
 
-                        echo "🚀 Starting containers"
-                        docker compose up -d
+                echo "🐳 Building backend"
+                docker compose build --no-cache email-backend
 
-                        
-                    '
-                    """
-                }
-            }
+                echo "🚀 Starting containers"
+                docker compose up -d
+            '
+            """
         }
+    }
+}
+
 
         // -----------------------------
         // 7. Verify Services
