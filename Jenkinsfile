@@ -112,8 +112,7 @@ pipeline {
                 echo "🚀 Starting containers"
                 docker compose up -d
 
-                echo "🔄 Reloading Caddy"
-                docker exec caddy caddy reload --config /etc/caddy/Caddyfile
+                
 EOF
             """
         }
