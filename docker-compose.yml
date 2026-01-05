@@ -1,5 +1,4 @@
 services:
-
   email-backend:
     build:
       context: ./backend
@@ -7,11 +6,9 @@ services:
     container_name: email-backend
     restart: unless-stopped
     networks:
-      - app-network
+      - email-main_app-network
     volumes:
       - ./backend:/app
-    expose:
-      - "5000"
 
   frontend-app:
     build:
@@ -20,19 +17,17 @@ services:
     container_name: frontend-app
     restart: unless-stopped
     networks:
-      - app-network
-    expose:
-      - "80"
+      - email-main_app-network
 
   caddy:
     image: caddy:2.7.4
     container_name: caddy
     restart: unless-stopped
-    networks:
-      - app-network
     ports:
       - "80:80"
       - "443:443"
+    networks:
+      - email-main_app-network
     volumes:
       - ./caddy-config/Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data
@@ -42,8 +37,8 @@ services:
       - email-backend
 
 networks:
-  app-network:
-    driver: bridge
+  email-main_app-network:
+    external: true
 
 volumes:
   caddy_data:
