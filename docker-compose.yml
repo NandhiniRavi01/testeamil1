@@ -7,12 +7,8 @@ services:
       dockerfile: Dockerfile
     container_name: email-backend
     restart: unless-stopped
-    ports:
-      - "5000:5000"  # optional: host port if you want direct access
     networks:
       - app-network
-    volumes:
-      - ./backend:/app
 
   frontend:
     build:
@@ -31,7 +27,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data
       - caddy_config:/config
     depends_on:
