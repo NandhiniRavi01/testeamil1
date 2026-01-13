@@ -78,7 +78,7 @@ function AdminPanel() {
   const fetchUsers = async () => {
     setLoading(true);
     try {
-      const response = await fetch('https://emailagent.cubegtp.com//auth/admin/users', {
+      const response = await fetch('https://emailagent.cubegtp.com/auth/admin/users', {
         method: 'GET',
         credentials: 'include'
       });
@@ -120,7 +120,7 @@ function AdminPanel() {
     setMessage({ type: "", text: "" });
     
     try {
-      const response = await fetch('https://emailagent.cubegtp.com//auth/admin/create-user', {
+      const response = await fetch('https://emailagent.cubegtp.com/auth/admin/create-user', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         credentials: 'include',
@@ -155,7 +155,7 @@ function AdminPanel() {
     
     setLoading(true);
     try {
-      const response = await fetch(`https://emailagent.cubegtp.com//auth/admin/users/${userId}/role`, {
+      const response = await fetch(`https://emailagent.cubegtp.com/auth/admin/users/${userId}/role`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         credentials: 'include',
@@ -184,7 +184,7 @@ function AdminPanel() {
     
     setLoading(true);
     try {
-      const response = await fetch(`https://emailagent.cubegtp.com//auth/admin/users/${userId}/toggle`, {
+      const response = await fetch(`https://emailagent.cubegtp.com/auth/admin/users/${userId}/toggle`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         credentials: 'include',
@@ -660,4 +660,5 @@ function AdminPanel() {
 
 
 export default AdminPanel;
+
 
