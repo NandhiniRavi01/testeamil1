@@ -1,7 +1,7 @@
 export function getApiBaseUrl() {
   try {
     let raw = (process.env.REACT_APP_API_URL || '').trim();
-    if (!raw) return 'http://65.1.129.37:5000';
+    if (!raw) return 'https://emailagent.cubegtp.com';
 
     // Ensure no trailing slash
     const trimSlash = (s) => s.replace(/\/+$/, '');
@@ -42,4 +42,5 @@ export function getApiBaseUrl() {
     return 'http://localhost:5000';
   }
 }
+
 
