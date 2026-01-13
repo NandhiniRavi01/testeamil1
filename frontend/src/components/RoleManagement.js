@@ -18,7 +18,7 @@ const RoleManagement = () => {
   const [selectedActivity, setSelectedActivity] = useState(null);
   const [showActivityDetailModal, setShowActivityDetailModal] = useState(false);
 
-  const API_BASE_URL = 'http://65.1.129.37:5000';
+  const API_BASE_URL = 'https://emailagent.cubegtp.com';
 
   useEffect(() => {
     fetchUsers();
@@ -502,4 +502,5 @@ const RoleManagement = () => {
 };
 
 export default RoleManagement;
+
 
