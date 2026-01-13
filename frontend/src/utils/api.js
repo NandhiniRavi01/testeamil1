@@ -1,7 +1,7 @@
 export function getApiBaseUrl() {
   try {
     let raw = (process.env.REACT_APP_API_URL || '').trim();
-    if (!raw) return 'https://emailagent.cubegtp.com/api';
+    if (!raw) return 'https://emailagent.cubegtp.com';
 
     // Ensure no trailing slash
     const trimSlash = (s) => s.replace(/\/+$/, '');
@@ -42,6 +42,7 @@ export function getApiBaseUrl() {
     return 'https://emailagent.cubegtp.com';
   }
 }
+
 
 
 
