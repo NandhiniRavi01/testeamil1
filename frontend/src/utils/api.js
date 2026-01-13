@@ -14,13 +14,13 @@ export function getApiBaseUrl() {
     // Starts with ":port"
     if (raw.startsWith(':')) {
       const host = (typeof window !== 'undefined' && window.location && window.location.hostname) || 'localhost';
-      return `http://${host}${trimSlash(raw)}`;
+      return `https://${host}${trimSlash(raw)}`;
     }
 
     // Just a port number like "5000"
     if (/^\d+$/.test(raw)) {
       const host = (typeof window !== 'undefined' && window.location && window.location.hostname) || 'localhost';
-      return `http://${host}:${raw}`;
+      return `https://${host}:${raw}`;
     }
 
     // Host:port like "localhost:5000" or "127.0.0.1:5000"
@@ -33,14 +33,15 @@ export function getApiBaseUrl() {
       if (typeof window !== 'undefined' && window.location) {
         return trimSlash(`${window.location.origin}${raw}`);
       }
-      return `http://localhost:5000${trimSlash(raw)}`;
+      return `https://emailagent.cubegtp.com${trimSlash(raw)}`;
     }
 
     // Fallback: return as-is
     return trimSlash(raw);
   } catch (e) {
-    return 'http://localhost:5000';
+    return 'https://emailagent.cubegtp.com';
   }
 }
+
 
 
