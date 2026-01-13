@@ -12,7 +12,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import DailyEmailChart from './DailyEmailChart';
 import PageHeader from './PageHeader';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://emailagent.cubegtp.com/';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://emailagent.cubegtp.com/api';
 
 const makeAuthenticatedRequest = async (url, options = {}) => {
   const defaultOptions = {
@@ -648,5 +648,6 @@ const SummaryDashboard = () => {
 };
 
 export default SummaryDashboard;
+
 
 
