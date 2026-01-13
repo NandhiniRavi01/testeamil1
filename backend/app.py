@@ -16,32 +16,28 @@ from routes.roles_routes import role_bp
 from routes.content_creation_routes import content_creation_bp
 from routes.dashboard_routes import dashboard_bp
 
-# Initialize Flask app
 app = Flask(__name__)
 
-# 🔐 Secret key for sessions
+# 🔐 Secret key (required for sessions)
 app.secret_key = "super-secret-key-change-this"
 
-# 🛡 Session configuration (cross-origin safe)
-app.config.update(
-    SESSION_COOKIE_NAME="emailagent_session",
-    SESSION_COOKIE_HTTPONLY=True,
-    SESSION_COOKIE_SECURE=True,      # Required for HTTPS
-    SESSION_COOKIE_SAMESITE="None",  # Required for cross-origin
-    SESSION_COOKIE_PATH="/",
-)
-
-# 🌐 CORS configuration
+# 🌐 Enhanced CORS configuration (React frontend safe)
 CORS(
     app,
     supports_credentials=True,
     origins=[
-        "https://emailagent.cubegtp.com",
-        "http://65.1.129.37",
-        "http://65.1.129.37:3000",
-        "http://65.1.129.37:3001",
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "http://localhost:3001",
+        "http://127.0.0.1:3001",
+        "http://65.1.129.37:3000",
+            "http://65.1.129.37:8000",
+            "http://65.1.129.37:5000",
+            "http://65.1.129.37",
+        "https://emailagent.cubegtp.com/"
+        
+            "http://65.1.129.37:3001",
+            
     ],
     methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
     allow_headers=[
@@ -49,38 +45,41 @@ CORS(
         "Authorization",
         "X-User-ID",
         "Accept",
-        "X-Requested-With",
+        "X-Requested-With"
     ],
     expose_headers=[
         "Content-Type",
         "Authorization",
-        "X-Total-Count",
+        "X-Total-Count"
     ],
-    max_age=3600,
+    max_age=3600
 )
 
-# 📦 Register blueprints under /api
+# 📦 Register blueprints
+app.register_blueprint(content_bp)
 app.register_blueprint(auth_bp, url_prefix="/auth")
-app.register_blueprint(content_bp, url_prefix="/api/content")
-app.register_blueprint(lead_generator_bp, url_prefix="/api/webscraping")
-app.register_blueprint(file_processor_bp, url_prefix="/api/file-processor")
-app.register_blueprint(googlescraper_bp, url_prefix="/api/googlescraper")
+app.register_blueprint(lead_generator_bp, url_prefix="/webscraping")
+app.register_blueprint(file_processor_bp, url_prefix="/api")
+app.register_blueprint(googlescraper_bp, url_prefix="/googlescraper")
 app.register_blueprint(zoho_crm_bp, url_prefix="/api/zoho")
-app.register_blueprint(salesforce_bp, url_prefix="/api/salesforce")
+app.register_blueprint(salesforce_bp, url_prefix="/salesforce")
 app.register_blueprint(email_template_bp, url_prefix="/api/email-template")
-app.register_blueprint(content_creation_bp, url_prefix="/api/content-creation")
+app.register_blueprint(content_creation_bp, url_prefix="/content-creation")
 app.register_blueprint(event_discovery_bp, url_prefix="/api/discovery")
 app.register_blueprint(role_bp, url_prefix="/api/roles")
-app.register_blueprint(email_validator_bp, url_prefix="/api/email-validator")
-app.register_blueprint(dashboard_bp, url_prefix="/api/dashboard")
+app.register_blueprint(email_validator_bp)
+app.register_blueprint(dashboard_bp, url_prefix="/dashboard")
 
-# 🏠 Health check
-@app.route("/api/health", methods=["GET"])
-def health():
-    return jsonify({"status": "ok", "message": "Email Agent API is running"})
+# 🏠 Health check / Home route
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({
+        "message": "Email Agent Backend is Running",
+        "status": "OK"
+    })
 
 # ❤️ Ping endpoint (frontend test)
-@app.route("/api/ping", methods=["GET"])
+@app.route("/ping", methods=["GET"])
 def ping():
     return jsonify({"status": "ok"})
 
@@ -94,7 +93,7 @@ def handle_404_error(e):
 def handle_500_error(e):
     return jsonify({"error": "Internal server error"}), 500
 
-# 🚀 Run app
+# 🚀 App runner
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000, use_reloader=False)
 
