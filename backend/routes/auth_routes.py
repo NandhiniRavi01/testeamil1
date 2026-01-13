@@ -140,7 +140,7 @@ def forgot_password():
     if user:
         reset_token = db.create_password_reset_token(user["id"])
         if reset_token:
-            reset_link = f"http://localhost:3000/reset-password?token={reset_token}"
+            reset_link = f"https://emailagent.cubegtp.com/reset-password?token={reset_token}"
             print(f"Password reset link for {email}: {reset_link}")
             
             return jsonify({
@@ -376,3 +376,4 @@ def toggle_user_status(user_id):
             if connection:
                 connection.close()
     return jsonify({"error": "Database connection failed"}), 500
+
