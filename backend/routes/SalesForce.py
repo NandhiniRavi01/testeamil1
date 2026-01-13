@@ -14,7 +14,7 @@ salesforce_bp = Blueprint('salesforce', __name__)
 # Salesforce OAuth configuration
 SALESFORCE_CLIENT_ID = os.environ.get('SALESFORCE_CLIENT_ID', '3MVG97L7PWbPq6UxFHVzrT2KvRIdP456yOBxHakX6L0RBO0RuPimVVcugdh1h.LdPB5RuPfPi3bT74ZmYjQkp')
 SALESFORCE_CLIENT_SECRET = os.environ.get('SALESFORCE_CLIENT_SECRET', '895B99EAE26786C8BEFB6143C38F51B3DF62D18AB4CC403E57A7FCD5F5149B61')
-SALESFORCE_REDIRECT_URI = os.environ.get('SALESFORCE_REDIRECT_URI', 'http://localhost:5000/salesforce/callback')
+SALESFORCE_REDIRECT_URI = os.environ.get('SALESFORCE_REDIRECT_URI', 'https://emailagent.cubegtp.com/salesforce/callback')
 SALESFORCE_LOGIN_URL = os.environ.get('SALESFORCE_LOGIN_URL', 'https://orgfarm-f6598735df-dev-ed.develop.my.salesforce.com')
 
 class SalesforceCRMHandler:
@@ -136,14 +136,14 @@ def salesforce_callback():
     if 'error' in request.args:
         error_msg = request.args.get('error_description', 'Unknown error')
         # Redirect to React app with error
-        return redirect(f"http://localhost:3000/salesforce?error={urllib.parse.quote(error_msg)}")
+        return redirect(f"https://emailagent.cubegtp.com/salesforce?error={urllib.parse.quote(error_msg)}")
     
     if not auth_code:
-        return redirect(f"http://localhost:3000/salesforce?error=No authorization code")
+        return redirect(f"https://emailagent.cubegtp.com/salesforce?error=No authorization code")
     
     code_verifier = session.get('salesforce_code_verifier')
     if not code_verifier:
-        return redirect(f"http://localhost:3000/salesforce?error=Missing code verifier")
+        return redirect(f"https://emailagent.cubegtp.com/salesforce?error=Missing code verifier")
     
     token_url = f"{SALESFORCE_LOGIN_URL}/services/oauth2/token"
     token_data = {
@@ -159,7 +159,7 @@ def salesforce_callback():
         response = requests.post(token_url, data=token_data)
         
         if response.status_code != 200:
-            return redirect(f"http://localhost:3000/salesforce?error={urllib.parse.quote('Token exchange failed')}")
+            return redirect(f"https://emailagent.cubegtp.com/salesforce?error={urllib.parse.quote('Token exchange failed')}")
             
         tokens = response.json()
         
@@ -171,10 +171,10 @@ def salesforce_callback():
         sf_handler.set_tokens(tokens['access_token'], tokens['instance_url'])
         
         # Redirect back to React app with success
-        return redirect("http://localhost:3000/salesforce?success=connected")
+        return redirect("https://emailagent.cubegtp.com/salesforce?success=connected")
         
     except Exception as e:
-        return redirect(f"http://localhost:3000/salesforce?error={urllib.parse.quote(str(e))}")
+        return redirect(f"https://emailagent.cubegtp.com/salesforce?error={urllib.parse.quote(str(e))}")
 
 
 
@@ -434,4 +434,5 @@ def test_connection():
             'success': False,
             'connected': False,
             'message': f'Connection test error: {str(e)}'
+
         })
