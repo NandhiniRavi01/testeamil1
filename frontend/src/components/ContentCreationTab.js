@@ -58,7 +58,7 @@ const ContentCreationTab = ({ setGlobalLoading }) => {
         if (setGlobalLoading) setGlobalLoading(true);
 
         try {
-            const response = await fetch('http://65.1.129.37:5000/content-creation/analyze', {
+            const response = await fetch('https://emailagent.cubegtp.com/content-creation/analyze', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 credentials: 'include',
@@ -90,7 +90,7 @@ const ContentCreationTab = ({ setGlobalLoading }) => {
         if (setGlobalLoading) setGlobalLoading(true);
 
         try {
-            const response = await fetch('http://65.1.129.37:5000/content-creation/generate', {
+            const response = await fetch('https://emailagent.cubegtp.com/content-creation/generate', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 credentials: 'include',
@@ -195,7 +195,7 @@ const ContentCreationTab = ({ setGlobalLoading }) => {
         if (setGlobalLoading) setGlobalLoading(true);
 
         try {
-            const response = await fetch('http://65.1.129.37:5000/content-creation/refine', {
+            const response = await fetch('https://emailagent.cubegtp.com/content-creation/refine', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 credentials: 'include',
@@ -546,4 +546,5 @@ const ContentCreationTab = ({ setGlobalLoading }) => {
 };
 
 export default ContentCreationTab;
+
 
