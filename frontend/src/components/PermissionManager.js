@@ -6,7 +6,7 @@ import {
 } from "react-icons/fi";
 import "./PermissionManager.css";
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://65.1.129.37:5000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://emailagent.cubegtp.com';
 
 const MODULE_LABELS = {
     dashboard: "Dashboard",
@@ -206,4 +206,5 @@ function PermissionManager({ userId, username, onClose }) {
 }
 
 export default PermissionManager;
+
 
