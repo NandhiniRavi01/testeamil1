@@ -6,7 +6,7 @@ import {
 import { FiRefreshCw, FiTrendingUp, FiFilter } from 'react-icons/fi';
 import './DailyEmailChart.css';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://65.1.129.37:5000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://emailagent.cubegtp.com';
 
 const makeAuthenticatedRequest = async (url, options = {}) => {
     const defaultOptions = {
@@ -246,4 +246,5 @@ const DailyEmailChart = ({ globalSender }) => {
 };
 
 export default DailyEmailChart;
+
 
