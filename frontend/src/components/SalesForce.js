@@ -14,7 +14,7 @@ const getApiBaseUrl = () => {
   }
   const { hostname } = window.location;
   if (hostname === 'localhost' || hostname === '65.1.129.37') {
-    return 'http://65.1.129.37:5000';
+    return 'https://emailagent.cubegtp.com';
   }
   return '';
 };
@@ -643,3 +643,4 @@ function SalesforceCRMTab() {
 
 
 export default SalesforceCRMTab;
+
