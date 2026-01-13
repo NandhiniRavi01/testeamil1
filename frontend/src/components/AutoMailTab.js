@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState, useCallback } from "react";
 import { FiPlus, FiEdit2, FiRefreshCw, FiEye, FiCheck, FiX, FiMail, FiSettings } from "react-icons/fi";
 import "./AutoMailTab.css";
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || "https://emailagent.cubegtp.com/";
+const API_BASE_URL = process.env.REACT_APP_API_URL || "https://emailagent.cubegtp.com/api";
 
 export default function AutoMailTab() {
   const [campaigns, setCampaigns] = useState([]);
@@ -472,5 +472,6 @@ export default function AutoMailTab() {
     </div>
   );
 }
+
 
 
