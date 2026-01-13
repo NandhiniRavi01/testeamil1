@@ -122,7 +122,9 @@ pipeline {
         stage('Verify Services') {
             steps {
                 sshagent(['aws-email-vm-ssh']) {
-                    retry(5) {
+                echo "⏳ Waiting 3 minutes before health checks..."
+                    sleep 180
+
                         sh """
                         ssh -o StrictHostKeyChecking=no ${VM_USER}@${VM_HOST} '
                             echo "🔍 Backend check"
@@ -133,8 +135,8 @@ pipeline {
                             
                         '
                         """
-                        sleep 5
-                    }
+                        
+                    
                 }
             }
         }
