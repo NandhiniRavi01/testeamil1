@@ -868,7 +868,7 @@ function EmailTrackingTab() {
 
   const sendTrackingToZoho = async (recipientEmail, emailSubject, trackingData) => {
     try {
-      const response = await fetch(`${API_BASE_URL}/api/zoho/store-tracking`, {
+      const response = await fetch(`${API_BASE_URL}/zoho/store-tracking`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -892,7 +892,7 @@ function EmailTrackingTab() {
   // Function to send batch tracking data
   const sendBatchTrackingToZoho = async (trackingRecords) => {
     try {
-      const response = await fetch(`${API_BASE_URL}/api/zoho/batch-store-tracking`, {
+      const response = await fetch(`${API_BASE_URL}/zoho/batch-store-tracking`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -1006,7 +1006,7 @@ function EmailTrackingTab() {
 
   const testZohoTrackingIntegration = async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/api/zoho/test-tracking-integration`, {
+      const response = await fetch(`${API_BASE_URL}/zoho/test-tracking-integration`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -1031,7 +1031,7 @@ function EmailTrackingTab() {
   // Get tracking summary from Zoho
   const getZohoTrackingSummary = async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/api/zoho/get-tracking-summary`, {
+      const response = await fetch(`${API_BASE_URL}/zoho/get-tracking-summary`, {
         method: 'GET',
         credentials: 'include'
       });
@@ -1063,7 +1063,7 @@ function EmailTrackingTab() {
   // Check if emails already exist as leads in Zoho
   const checkEmailsInZoho = async (emails) => {
     try {
-      const response = await fetch(`${API_BASE_URL}/api/zoho/get-leads-by-email`, {
+      const response = await fetch(`${API_BASE_URL}/zoho/get-leads-by-email`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -2125,6 +2125,7 @@ function EmailTrackingTab() {
 
 
 export default EmailTrackingTab;
+
 
 
 
