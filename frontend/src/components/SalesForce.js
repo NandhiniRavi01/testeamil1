@@ -13,7 +13,7 @@ const getApiBaseUrl = () => {
     return process.env.REACT_APP_API_URL;
   }
   const { hostname } = window.location;
-  if (hostname === 'localhost' || hostname === '65.1.129.37') {
+  if (hostname === 'localhost' || hostname === '65.1.129.37' ) {
     return 'https://emailagent.cubegtp.com';
   }
   return '';
@@ -105,7 +105,7 @@ function SalesforceCRMTab() {
     setLoading(prev => ({ ...prev, users: true }));
     try {
       // This would be your existing endpoint for replied users
-      const res = await makeRequest('/api/get-replied-users'); // Adjust to your actual endpoint
+      const res = await makeRequest('/get-replied-users'); // Adjust to your actual endpoint
       
       if (res.ok) {
         const data = await res.json();
@@ -643,4 +643,5 @@ function SalesforceCRMTab() {
 
 
 export default SalesforceCRMTab;
+
 
