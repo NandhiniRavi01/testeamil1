@@ -115,7 +115,7 @@ function App() {
 
   const handleLogout = async () => {
     try {
-      await fetch(``https://emailagent.cubegtp.com/auth/logout`, {
+      await fetch(`https://emailagent.cubegtp.com/auth/logout`, {
         method: "POST",
         credentials: "include",
       });
