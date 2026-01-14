@@ -68,7 +68,7 @@ function App() {
 
   const checkAuthStatus = async () => {
     try {
-      const response = await fetch("https://emailagent.cubegtp.com/auth/check-auth", {
+      const response = await fetch(`https://emailagent.cubegtp.com/auth/check-auth`, {
         method: 'GET',
         credentials: "include",
       });
@@ -115,7 +115,7 @@ function App() {
 
   const handleLogout = async () => {
     try {
-      await fetch(`"https://emailagent.cubegtp.com/auth/logout", {
+      await fetch(``https://emailagent.cubegtp.com/auth/logout`, {
         method: "POST",
         credentials: "include",
       });
