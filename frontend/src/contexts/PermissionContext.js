@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import { getApiBaseUrl } from "../utils/api";
 
 const PermissionContext = createContext();
-const API_BASE_URL = getApiBaseUrl();
+const API_BASE_URL = `https://emailagent.cubegtp.com`;
 
 export const usePermissions = () => {
     const context = useContext(PermissionContext);
@@ -82,3 +82,4 @@ export const PermissionProvider = ({ children, currentUser }) => {
         </PermissionContext.Provider>
     );
 };
+
