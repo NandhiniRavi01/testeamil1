@@ -62,7 +62,7 @@ app.register_blueprint(lead_generator_bp, url_prefix="/api/webscraping")
 app.register_blueprint(file_processor_bp, url_prefix="/api")
 app.register_blueprint(googlescraper_bp, url_prefix="/api/googlescraper")
 app.register_blueprint(zoho_crm_bp, url_prefix="/api/zoho")
-app.register_blueprint(salesforce_bp, url_prefix="/api/salesforce")
+app.register_blueprint(salesforce_bp, url_prefix="/salesforce")
 app.register_blueprint(email_template_bp, url_prefix="/api/email-template")
 app.register_blueprint(content_creation_bp, url_prefix="/api/content-creation")
 app.register_blueprint(event_discovery_bp, url_prefix="/api/discovery")
@@ -96,6 +96,7 @@ def handle_500_error(e):
 # 🚀 App runner
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000, use_reloader=False)
+
 
 
 
