@@ -11,7 +11,7 @@ import SplashScreen from "./SplashScreen";
 import { getApiBaseUrl } from "../utils/api";
 
 // Normalize base and append discovery prefix
-const API_BASE_URL = `${getApiBaseUrl()}/api/discovery`;
+const API_BASE_URL = `${getApiBaseUrl()}/discovery`;
 
 function EventDiscoveryTab() {
     const [events, setEvents] = useState([]);
@@ -401,3 +401,4 @@ function EventDiscoveryTab() {
 }
 
 export default EventDiscoveryTab;
+
