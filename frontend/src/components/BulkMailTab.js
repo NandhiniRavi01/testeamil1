@@ -200,7 +200,7 @@ function BulkMailTab() {
   useEffect(() => {
     const validateSession = async () => {
       try {
-        const res = await makeAuthenticatedRequest("https://emailagent.cubegtp.com/auth/check-auth");
+        const res = await makeAuthenticatedRequest(`https://emailagent.cubegtp.com/auth/check-auth`);
         const data = await res.json();
         if (!data.authenticated) {
           localStorage.removeItem('authToken');
@@ -996,7 +996,7 @@ function BulkMailTab() {
   // Add logout function
   const handleLogout = async () => {
     try {
-      await makeAuthenticatedRequest(`"https://emailagent.cubegtp.com/auth/logout", {
+      await makeAuthenticatedRequest(`https://emailagent.cubegtp.com/auth/logout`, {
         method: "POST",
       });
     } catch (error) {
@@ -1029,3 +1029,4 @@ function BulkMailTab() {
 
 
 export default BulkMailTab;
+
