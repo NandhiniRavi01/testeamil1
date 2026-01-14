@@ -56,7 +56,7 @@ CORS(
 )
 
 # 📦 Register blueprints
-app.register_blueprint(content_bp)
+app.register_blueprint(content_bp, url_prefix="/api")
 app.register_blueprint(auth_bp, url_prefix="/auth")
 app.register_blueprint(lead_generator_bp, url_prefix="/webscraping")
 app.register_blueprint(file_processor_bp, url_prefix="/api")
@@ -96,6 +96,7 @@ def handle_500_error(e):
 # 🚀 App runner
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000, use_reloader=False)
+
 
 
 
