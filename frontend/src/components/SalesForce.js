@@ -10,7 +10,7 @@ import "./SalesForce.css";
 // Dynamic API base URL
 const getApiBaseUrl = () => {
   if (process.env.REACT_APP_API_URL) {
-    return process.env.REACT_APP_API_URL;
+    return 'https://emailagent.cubegtp.com';
   }
   const { hostname } = window.location;
   if (hostname === 'localhost' || hostname === '65.1.129.37' ) {
@@ -643,5 +643,6 @@ function SalesforceCRMTab() {
 
 
 export default SalesforceCRMTab;
+
 
 
