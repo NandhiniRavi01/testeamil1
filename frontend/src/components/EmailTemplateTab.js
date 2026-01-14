@@ -66,7 +66,7 @@ Best regards,
     const [pollInterval, setPollInterval] = useState(null);
 
     const BASE_URL = process.env.REACT_APP_API_URL || 'https://emailagent.cubegtp.com';
-    const API_BASE_URL = `${BASE_URL}/api/email-template`;
+    const API_BASE_URL = `${BASE_URL}/email-template`;
 
     // Load sender info from localStorage on mount
     useEffect(() => {
@@ -940,5 +940,6 @@ Best regards,
 };
 
 export default EmailTemplateTab;
+
 
 
